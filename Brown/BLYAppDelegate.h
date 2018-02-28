@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 extern NSString * const BLYAppDelegateDidReceiveRemoteControlNotification;
-extern NSString * const BLYAppDelegateGoogleAnalyticsTrackingID;
 
 extern const int BLYBaseTabBarControllerPlayerIndex;
 extern const int BLYBaseTabBarControllerExternalTopIndex;

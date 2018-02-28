@@ -6,9 +6,6 @@
 //  Copyright (c) 2013 Jeremy Levy. All rights reserved.
 //
 
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
-
 #import "BLYAppDelegate.h"
 #import "BLYBaseNavigationController.h"
 #import "BLYBaseTabBarController.h"
@@ -27,7 +24,6 @@
 #import "BLYFullScreenPlayerViewController.h"
 
 NSString * const BLYAppDelegateDidReceiveRemoteControlNotification = @"BLYAppDelegateDidReceiveRemoteControlNotification";
-NSString * const BLYAppDelegateGoogleAnalyticsTrackingID = @"UA-50716355-1";
 
 const int BLYBaseTabBarControllerPlayerIndex = 0;
 const int BLYBaseTabBarControllerExternalTopIndex = 1;
@@ -46,8 +42,6 @@ const int BLYBaseTabBarControllerPlayedSongsIndex = 3;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //[Crashlytics startWithAPIKey:@"02d671d301e5a4144555b6c21caeb066cf0825fb"];
-    
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     
     self.window = [[UIWindow alloc] initWithFrame:screenBounds];
@@ -125,10 +119,6 @@ const int BLYBaseTabBarControllerPlayedSongsIndex = 3;
     
     [[BLYVideoStore sharedStore] removeOrphanedVideoSongs];
     [[BLYVideoStore sharedStore] removeOrphanedVideos];
-    
-    [Fabric with:@[[Crashlytics class]]];
-    
-    //[[BLYVideoStore sharedStore] cleanVideoComments]; Are you sure ??
     
     return YES;
 }
