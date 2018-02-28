@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BLYSearchSongViewController">
+            <connections>
+                <outlet property="searchResultsList" destination="dI4-io-oKk" id="0O5-rz-vev"/>
+                <outlet property="searchResultsListBackgroundView" destination="pdg-k4-5YY" id="wVd-N7-hYH"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdg-k4-5YY">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dI4-io-oKk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="CRZ-i9-TnW"/>
+                        <outlet property="delegate" destination="-1" id="1Eg-R7-Nax"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pdg-k4-5YY" secondAttribute="bottom" id="2qO-ZU-7t3"/>
+                <constraint firstItem="dI4-io-oKk" firstAttribute="top" secondItem="1" secondAttribute="top" id="LxU-sa-OuC"/>
+                <constraint firstAttribute="bottom" secondItem="dI4-io-oKk" secondAttribute="bottom" id="PTJ-Zx-7R2"/>
+                <constraint firstItem="dI4-io-oKk" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="SNi-2I-eeh"/>
+                <constraint firstItem="pdg-k4-5YY" firstAttribute="top" secondItem="1" secondAttribute="top" id="acG-jJ-pbB"/>
+                <constraint firstAttribute="trailing" secondItem="dI4-io-oKk" secondAttribute="trailing" id="w0v-YU-Sm0"/>
+                <constraint firstItem="pdg-k4-5YY" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="xaH-WL-cGK"/>
+                <constraint firstAttribute="trailing" secondItem="pdg-k4-5YY" secondAttribute="trailing" id="xsR-nh-MzX"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+        </view>
+    </objects>
+</document>

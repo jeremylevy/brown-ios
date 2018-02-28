@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BLYAlbumsListHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="pHr-Me-61f">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="6" minimumInteritemSpacing="0.0" id="g8b-XJ-Pr9">
+                        <size key="itemSize" width="64" height="64"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="6" minY="0.0" maxX="6" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chargement des albums en cours..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9j0-8V-WhV">
+                    <rect key="frame" x="60" y="24.5" width="200.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="pHr-Me-61f" secondAttribute="trailing" id="1kV-ef-iLW"/>
+                <constraint firstAttribute="bottom" secondItem="pHr-Me-61f" secondAttribute="bottom" id="JZL-fd-7p4"/>
+                <constraint firstItem="9j0-8V-WhV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Oqb-MX-M4L"/>
+                <constraint firstItem="pHr-Me-61f" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RUA-mj-yaE"/>
+                <constraint firstItem="pHr-Me-61f" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b5F-DH-d0A"/>
+                <constraint firstItem="9j0-8V-WhV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lbC-oN-H5i"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="albums" destination="pHr-Me-61f" id="VH3-Q0-5KK"/>
+                <outlet property="albumsLoadingLabel" destination="9j0-8V-WhV" id="www-OA-I7r"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="53.5"/>
+        </view>
+    </objects>
+</document>

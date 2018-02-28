@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Xcode 4.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="BLYAlbum" representedClassName="BLYAlbum" syncable="YES">
+        <attribute name="cachedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isASingle" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isCached" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isFullyLoaded" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="releaseDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYArtistSong" inverseName="albums" inverseEntity="BLYArtistSong" syncable="YES"/>
+        <relationship name="cachedAlbum" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYCachedAlbum" inverseName="album" inverseEntity="BLYCachedAlbum" syncable="YES"/>
+        <relationship name="playedAlbum" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="BLYPlayedAlbum" inverseName="album" inverseEntity="BLYPlayedAlbum" syncable="YES"/>
+        <relationship name="searches" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="BLYSearchSong" inverseName="albums" inverseEntity="BLYSearchSong" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYSong" inverseName="album" inverseEntity="BLYSong" syncable="YES"/>
+        <relationship name="thumbnails" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYAlbumThumbnail" inverseName="album" inverseEntity="BLYAlbumThumbnail" syncable="YES"/>
+    </entity>
+    <entity name="BLYAlbumThumbnail" representedClassName="BLYAlbumThumbnail" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYAlbum" inverseName="thumbnails" inverseEntity="BLYAlbum" syncable="YES"/>
+    </entity>
+    <entity name="BLYArtist" representedClassName="BLYArtist" syncable="YES">
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isYoutubeChannel" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artistSongs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYArtistSong" inverseName="ref" inverseEntity="BLYArtistSong" syncable="YES"/>
+        <relationship name="search" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="BLYSearchSong" inverseName="artist" inverseEntity="BLYSearchSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYArtistSong" representedClassName="BLYArtistSong" syncable="YES">
+        <attribute name="isRealName" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="albums" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="BLYAlbum" inverseName="artist" inverseEntity="BLYAlbum" syncable="YES"/>
+        <relationship name="ref" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYArtist" inverseName="artistSongs" inverseEntity="BLYArtist" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="BLYSong" inverseName="artist" inverseEntity="BLYSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYCachedAlbum" representedClassName="BLYCachedAlbum" syncable="YES">
+        <attribute name="cachedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYAlbum" inverseName="cachedAlbum" inverseEntity="BLYAlbum" syncable="YES"/>
+    </entity>
+    <entity name="BLYCachedSong" representedClassName="BLYCachedSong" syncable="YES">
+        <attribute name="cachedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="cachedByUser" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="playedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoQuality" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="song" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="cachedSong" inverseEntity="BLYSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYExternalTopSong" representedClassName="BLYExternalTopSong" syncable="YES">
+        <attribute name="rank" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="country" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="BLYExternalTopSongCountry" inverseName="songs" inverseEntity="BLYExternalTopSongCountry" syncable="YES"/>
+        <relationship name="song" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="externalTopSongs" inverseEntity="BLYSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYExternalTopSongCountry" representedClassName="BLYExternalTopSongCountry" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYExternalTopSong" inverseName="country" inverseEntity="BLYExternalTopSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYPersonalTopSong" representedClassName="BLYPersonalTopSong" syncable="YES">
+        <attribute name="playCount" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="song" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="personalTopSong" inverseEntity="BLYSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYPlayedAlbum" representedClassName="BLYPlayedAlbum" syncable="YES">
+        <attribute name="playedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYAlbum" inverseName="playedAlbum" inverseEntity="BLYAlbum" syncable="YES"/>
+    </entity>
+    <entity name="BLYPlayedPlaylistSong" representedClassName="BLYPlayedPlaylistSong" syncable="YES">
+        <attribute name="isCurrent" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isLoadedFromAlbum" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="song" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="playedPlaylistSong" inverseEntity="BLYSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYPlayedSong" representedClassName="BLYPlayedSong" syncable="YES">
+        <attribute name="playedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="song" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="playedSong" inverseEntity="BLYSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYSearchSong" representedClassName="BLYSearchSong" syncable="YES">
+        <attribute name="hidden" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastSelectedAlbum" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastSelectedSegment" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="search" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="searchedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="albums" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="BLYAlbum" inverseName="searches" inverseEntity="BLYAlbum" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYArtist" inverseName="search" inverseEntity="BLYArtist" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="BLYSong" inverseName="searches" inverseEntity="BLYSong" syncable="YES"/>
+        <relationship name="videos" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="BLYSong" inverseName="searchesVideos" inverseEntity="BLYSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYSearchSongAutocomplete" representedClassName="BLYSearchSongAutocomplete" syncable="YES">
+        <attribute name="search" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="searchedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="BLYSearchSongAutocompleteResult" inverseName="searches" inverseEntity="BLYSearchSongAutocompleteResult" syncable="YES"/>
+    </entity>
+    <entity name="BLYSearchSongAutocompleteResult" representedClassName="BLYSearchSongAutocompleteResult" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="searches" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="BLYSearchSongAutocomplete" inverseName="results" inverseEntity="BLYSearchSongAutocomplete" syncable="YES"/>
+    </entity>
+    <entity name="BLYSong" representedClassName="BLYSong" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isVideo" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastPlayPlayedPercent" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="loadedByUser" optional="YES" transient="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="rankInAlbum" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videosReordered" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYAlbum" inverseName="songs" inverseEntity="BLYAlbum" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYArtistSong" inverseName="songs" inverseEntity="BLYArtistSong" syncable="YES"/>
+        <relationship name="cachedSong" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="BLYCachedSong" inverseName="song" inverseEntity="BLYCachedSong" syncable="YES"/>
+        <relationship name="externalTopSongs" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="BLYExternalTopSong" inverseName="song" inverseEntity="BLYExternalTopSong" syncable="YES"/>
+        <relationship name="personalTopSong" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="BLYPersonalTopSong" inverseName="song" inverseEntity="BLYPersonalTopSong" syncable="YES"/>
+        <relationship name="playedPlaylistSong" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="BLYPlayedPlaylistSong" inverseName="song" inverseEntity="BLYPlayedPlaylistSong" syncable="YES"/>
+        <relationship name="playedSong" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="BLYPlayedSong" inverseName="song" inverseEntity="BLYPlayedSong" syncable="YES"/>
+        <relationship name="relatedSongs" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="BLYSong" inverseName="relatedToSongs" inverseEntity="BLYSong" syncable="YES"/>
+        <relationship name="relatedToSongs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="relatedSongs" inverseEntity="BLYSong" syncable="YES"/>
+        <relationship name="searches" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="BLYSearchSong" inverseName="songs" inverseEntity="BLYSearchSong" syncable="YES"/>
+        <relationship name="searchesVideos" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="BLYSearchSong" inverseName="videos" inverseEntity="BLYSearchSong" syncable="YES"/>
+        <relationship name="videoRepresentation" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="BLYVideo" inverseName="songRepresentation" inverseEntity="BLYVideo" syncable="YES"/>
+        <relationship name="videos" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="BLYVideoSong" inverseName="song" inverseEntity="BLYVideoSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYTrendingSearch" representedClassName="BLYTrendingSearch" syncable="YES">
+        <attribute name="rank" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="search" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BLYVideo" representedClassName="BLYVideo" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isVevo" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="BLYVideoComment" inverseName="video" inverseEntity="BLYVideoComment" syncable="YES"/>
+        <relationship name="songRepresentation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="videoRepresentation" inverseEntity="BLYSong" syncable="YES"/>
+        <relationship name="urls" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYVideoURL" inverseName="video" inverseEntity="BLYVideoURL" syncable="YES"/>
+        <relationship name="videoSongs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYVideoSong" inverseName="video" inverseEntity="BLYVideoSong" syncable="YES"/>
+    </entity>
+    <entity name="BLYVideoComment" representedClassName="BLYVideoComment" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDisplayed" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="publishedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYYoutubeUser" inverseName="videoComments" inverseEntity="BLYYoutubeUser" syncable="YES"/>
+        <relationship name="video" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYVideo" inverseName="comments" inverseEntity="BLYVideo" syncable="YES"/>
+    </entity>
+    <entity name="BLYVideoSong" representedClassName="BLYVideoSong" syncable="YES">
+        <attribute name="possibleGarbage" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="song" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYSong" inverseName="videos" inverseEntity="BLYSong" syncable="YES"/>
+        <relationship name="video" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYVideo" inverseName="videoSongs" inverseEntity="BLYVideo" syncable="YES"/>
+    </entity>
+    <entity name="BLYVideoURL" representedClassName="BLYVideoURL" syncable="YES">
+        <attribute name="expiresAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYVideoURLType" inverseName="urls" inverseEntity="BLYVideoURLType" syncable="YES"/>
+        <relationship name="video" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BLYVideo" inverseName="urls" inverseEntity="BLYVideo" syncable="YES"/>
+    </entity>
+    <entity name="BLYVideoURLType" representedClassName="BLYVideoURLType" syncable="YES">
+        <attribute name="defaultContainer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itag" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="urls" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYVideoURL" inverseName="type" inverseEntity="BLYVideoURL" syncable="YES"/>
+    </entity>
+    <entity name="BLYYoutubeUser" representedClassName="BLYYoutubeUser" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="videoComments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BLYVideoComment" inverseName="author" inverseEntity="BLYVideoComment" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BLYAlbum" positionX="0" positionY="0" width="128" height="270"/>
+        <element name="BLYAlbumThumbnail" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="BLYArtist" positionX="0" positionY="0" width="128" height="118"/>
+        <element name="BLYArtistSong" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="BLYCachedAlbum" positionX="18" positionY="162" width="128" height="75"/>
+        <element name="BLYCachedSong" positionX="9" positionY="153" width="128" height="120"/>
+        <element name="BLYExternalTopSong" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="BLYExternalTopSongCountry" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="BLYPersonalTopSong" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="BLYPlayedAlbum" positionX="9" positionY="144" width="128" height="73"/>
+        <element name="BLYPlayedPlaylistSong" positionX="18" positionY="153" width="128" height="103"/>
+        <element name="BLYPlayedSong" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="BLYSearchSong" positionX="0" positionY="0" width="128" height="193"/>
+        <element name="BLYSearchSongAutocomplete" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="BLYSearchSongAutocompleteResult" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="BLYSong" positionX="0" positionY="0" width="128" height="360"/>
+        <element name="BLYTrendingSearch" positionX="9" positionY="153" width="128" height="75"/>
+        <element name="BLYVideo" positionX="0" positionY="0" width="128" height="163"/>
+        <element name="BLYVideoComment" positionX="18" positionY="126" width="128" height="133"/>
+        <element name="BLYVideoSong" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="BLYVideoURL" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="BLYVideoURLType" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="BLYYoutubeUser" positionX="9" positionY="117" width="128" height="88"/>
+    </elements>
+</model>

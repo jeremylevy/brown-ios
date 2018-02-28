@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BLYPlayedSongViewController handlePlayerHasPlayedASongNotification:]:BLYPlayedSongViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSString *)[[[self playlist] songAtIndex:0] title]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__91-[BLYYoutubeExtractor extractPlayerConfigArgumentsForVideoWithWatchUrl:andCompletionBlock:]_block_invoke:BLYYoutubeExtractor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "url[@&quot;itag&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController loadAudioSession]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.playerStatus">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYBaseTabBarController updateLayout]:BLYBaseTabBarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__78-[BLYVideoSongStore fetchVideoIDForSong:andCountry:lastChance:withCompletion:]_block_invoke:BLYVideoSongStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSUInteger)[bestTitle2Reg numberOfMatchesInString:videoTitle options:0 range:NSMakeRange(0, [videoTitle length])]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYBaseViewController dismissMe:]:BLYBaseViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYVideoStore cachedSongs]:BLYVideoStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSString*)[[videoSong video] sid]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYBaseViewController handleRotationChanged:]:BLYBaseViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.playerVC.playerStatus">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

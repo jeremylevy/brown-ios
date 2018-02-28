@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sRR-yc-zF7" customClass="BLYVideoCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wg6-Wi-5gW">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Wg6-Wi-5gW" secondAttribute="height" multiplier="1:1" id="v2t-Z8-sU6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="80" translatesAutoresizingMaskIntoConstraints="NO" id="kg2-dD-20v">
+                        <rect key="frame" x="0.0" y="85" width="80" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="6NI-LO-FIw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgY-vN-XpX">
+                        <rect key="frame" x="23.5" y="34" width="31.5" height="13"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="29" id="IGQ-Ta-zxf"/>
+                            <constraint firstAttribute="height" constant="13" id="ojZ-GF-6RR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                        <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="693-Gr-5fB">
+                        <rect key="frame" x="30" y="30.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Bm2-Au-572"/>
+                            <constraint firstAttribute="width" constant="20" id="bkT-It-Psj"/>
+                        </constraints>
+                    </activityIndicatorView>
+                    <pageControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="1" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-as-HGU">
+                        <rect key="frame" x="37" y="44" width="7" height="37"/>
+                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.79000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                    </pageControl>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Wg6-Wi-5gW" firstAttribute="leading" secondItem="sRR-yc-zF7" secondAttribute="leading" id="6jQ-H5-SXu"/>
+                <constraint firstItem="kg2-dD-20v" firstAttribute="leading" secondItem="sRR-yc-zF7" secondAttribute="leading" id="Fzb-oT-ggp"/>
+                <constraint firstItem="693-Gr-5fB" firstAttribute="centerY" secondItem="Wg6-Wi-5gW" secondAttribute="centerY" id="IiU-TV-k3t"/>
+                <constraint firstAttribute="bottom" secondItem="kg2-dD-20v" secondAttribute="bottom" id="K1n-Pg-lDR"/>
+                <constraint firstItem="C7O-as-HGU" firstAttribute="centerY" secondItem="Wg6-Wi-5gW" secondAttribute="centerY" constant="22" id="MRA-XH-ghE"/>
+                <constraint firstItem="C7O-as-HGU" firstAttribute="centerX" secondItem="Wg6-Wi-5gW" secondAttribute="centerX" id="Trl-j4-P8Z"/>
+                <constraint firstAttribute="trailing" secondItem="kg2-dD-20v" secondAttribute="trailing" id="Y3I-ZU-bFx"/>
+                <constraint firstAttribute="trailing" secondItem="Wg6-Wi-5gW" secondAttribute="trailing" id="cmJ-Yb-ykd"/>
+                <constraint firstItem="693-Gr-5fB" firstAttribute="centerX" secondItem="Wg6-Wi-5gW" secondAttribute="centerX" id="i1G-zl-7jl"/>
+                <constraint firstItem="WgY-vN-XpX" firstAttribute="centerX" secondItem="Wg6-Wi-5gW" secondAttribute="centerX" id="lYR-py-brj"/>
+                <constraint firstItem="Wg6-Wi-5gW" firstAttribute="top" secondItem="sRR-yc-zF7" secondAttribute="top" id="sGD-0l-zvj"/>
+                <constraint firstItem="WgY-vN-XpX" firstAttribute="centerY" secondItem="Wg6-Wi-5gW" secondAttribute="centerY" id="tCJ-vm-shG"/>
+                <constraint firstItem="kg2-dD-20v" firstAttribute="top" secondItem="Wg6-Wi-5gW" secondAttribute="bottom" constant="5" id="w5t-Ac-HuD"/>
+            </constraints>
+            <size key="customSize" width="70" height="122"/>
+            <connections>
+                <outlet property="duration" destination="WgY-vN-XpX" id="VyA-xt-Wgg"/>
+                <outlet property="loadIndicator" destination="693-Gr-5fB" id="XPg-lK-dcz"/>
+                <outlet property="playIndicator" destination="C7O-as-HGU" id="2gq-gr-pps"/>
+                <outlet property="videoThumbnail" destination="Wg6-Wi-5gW" id="Mj1-nd-NWm"/>
+                <outlet property="videoTitle" destination="kg2-dD-20v" id="qRT-Ro-Pvh"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

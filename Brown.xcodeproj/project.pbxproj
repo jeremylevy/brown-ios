@@ -1,0 +1,1535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F00F7C51DC906CE006562C6 /* BLYAppSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F00F7C41DC906CE006562C6 /* BLYAppSettingsStore.m */; };
+		3F0738591933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0738571933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.m */; };
+		3F07385A1933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0738581933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.xib */; };
+		3F0738601934C59E000DAA4D /* BLYVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07385F1934C59E000DAA4D /* BLYVideo.m */; };
+		3F0738691935F422000DAA4D /* BLYPlayedAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0738681935F422000DAA4D /* BLYPlayedAlbum.m */; };
+		3F07386C1935F47F000DAA4D /* BLYPlayedAlbumStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07386B1935F47F000DAA4D /* BLYPlayedAlbumStore.m */; };
+		3F07386F1935F62B000DAA4D /* BLYAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07386E1935F62B000DAA4D /* BLYAlbum.m */; };
+		3F073872193614EA000DAA4D /* BLYAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F073871193614EA000DAA4D /* BLYAlbumListViewController.m */; };
+		3F07387519363460000DAA4D /* BLYPlayedSongOnLoadHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07387419363460000DAA4D /* BLYPlayedSongOnLoadHeaderView.m */; };
+		3F07387719363480000DAA4D /* BLYPlayedSongOnLoadHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F07387619363480000DAA4D /* BLYPlayedSongOnLoadHeaderView.xib */; };
+		3F07387D193637B4000DAA4D /* BLYPlayedPlaylistSongStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07387C193637B4000DAA4D /* BLYPlayedPlaylistSongStore.m */; };
+		3F07388619365260000DAA4D /* BLYPlayedPlaylistSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07388519365260000DAA4D /* BLYPlayedPlaylistSong.m */; };
+		3F108C661DC6887800FD141C /* BLYAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F108C641DC6887800FD141C /* BLYAppSettingsViewController.m */; };
+		3F108C671DC6887800FD141C /* BLYAppSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F108C651DC6887800FD141C /* BLYAppSettingsViewController.xib */; };
+		3F212DE11DA6E6D500A9E468 /* BLYAlbumHeaderInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212DE01DA6E6D500A9E468 /* BLYAlbumHeaderInfoView.m */; };
+		3F212DE31DA6FD9700A9E468 /* BLYAlbumHeaderInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F212DE21DA6FD9700A9E468 /* BLYAlbumHeaderInfoView.xib */; };
+		3F212DE51DA94E2E00A9E468 /* BLYAlbumsListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F212DE41DA94E2E00A9E468 /* BLYAlbumsListHeaderView.xib */; };
+		3F212DE71DA94F6E00A9E468 /* BLYAlbumsListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212DE61DA94F6E00A9E468 /* BLYAlbumsListHeaderView.m */; };
+		3F212DEA1DA95EA000A9E468 /* BLYPlayedAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F212DE91DA95EA000A9E468 /* BLYPlayedAlbumCell.xib */; };
+		3F212DEC1DA95ED900A9E468 /* BLYPlayedAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212DEB1DA95ED900A9E468 /* BLYPlayedAlbumCell.m */; };
+		3F212DF01DA98A4B00A9E468 /* ExtendedNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212DEF1DA98A4B00A9E468 /* ExtendedNavBarView.m */; };
+		3F212DF61DBA634200A9E468 /* BLYSong+Caching.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212DF51DBA634200A9E468 /* BLYSong+Caching.m */; };
+		3F212DF91DBA6BB500A9E468 /* BLYSongCachingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212DF81DBA6BB500A9E468 /* BLYSongCachingStore.m */; };
+		3F212DFB1DBB6B4B00A9E468 /* BLYAlbumNavItemTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F212DFA1DBB6B4B00A9E468 /* BLYAlbumNavItemTitleView.xib */; };
+		3F212E001DBB6BB900A9E468 /* BLYAlbumNavItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212DFF1DBB6BB900A9E468 /* BLYAlbumNavItemTitleView.m */; };
+		3F212E0C1DBBBC2A00A9E468 /* BLYCachedSong+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212E051DBBBC2A00A9E468 /* BLYCachedSong+CoreDataClass.m */; };
+		3F212E0D1DBBBC2A00A9E468 /* BLYCachedSong+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212E071DBBBC2A00A9E468 /* BLYCachedSong+CoreDataProperties.m */; };
+		3F212E0E1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212E091DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataClass.m */; };
+		3F212E0F1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212E0B1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataProperties.m */; };
+		3F212E121DBBBD3E00A9E468 /* BLYCachedSongStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F212E111DBBBD3E00A9E468 /* BLYCachedSongStore.m */; };
+		3F32F3D7180BF34700052CB3 /* NSString+Escaping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F32F3D6180BF34600052CB3 /* NSString+Escaping.m */; };
+		3F3585C3192F4E76001B2AB7 /* BLYPlayerContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3585C2192F4E76001B2AB7 /* BLYPlayerContainerViewController.m */; };
+		3F3585C9192F8C0C001B2AB7 /* BLYPlayerContainerChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3585C8192F8C0C001B2AB7 /* BLYPlayerContainerChildViewController.m */; };
+		3F3585CC192FAC33001B2AB7 /* BLYPlayerNavItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3585CB192FAC33001B2AB7 /* BLYPlayerNavItemTitleView.m */; };
+		3F3585CE192FAD2B001B2AB7 /* BLYPlayerNavItemTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3585CD192FAD2B001B2AB7 /* BLYPlayerNavItemTitleView.xib */; };
+		3F4BCD0C184380270060CED9 /* BLYAlbum+Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BCD0B184380270060CED9 /* BLYAlbum+Thumbnail.m */; };
+		3F4BCD121846706A0060CED9 /* BLYSearchSongAutocompleteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BCD111846706A0060CED9 /* BLYSearchSongAutocompleteResult.m */; };
+		3F4BCD18184674F50060CED9 /* BLYSearchSongAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BCD17184674F50060CED9 /* BLYSearchSongAutocomplete.m */; };
+		3F4BCD1C1846E8D00060CED9 /* BLYSearchSongResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BCD1B1846E8D00060CED9 /* BLYSearchSongResult.m */; };
+		3F4BCD35184B55C90060CED9 /* NSString+Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BCD34184B55C90060CED9 /* NSString+Sizing.m */; };
+		3F4BCD38184CE21D0060CED9 /* NSString+Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BCD37184CE21D0060CED9 /* NSString+Matching.m */; };
+		3F4BCD3B184E1DBB0060CED9 /* BLYYoutubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BCD3A184E1DBB0060CED9 /* BLYYoutubeExtractor.m */; };
+		3F4BCD3D184E39CD0060CED9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4BCD3C184E39CD0060CED9 /* JavaScriptCore.framework */; };
+		3F6B255420091DE200EC5788 /* UIAlertController+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B255320091DE200EC5788 /* UIAlertController+Orientation.m */; };
+		3F6F44B21916A0AD0098A419 /* BLYArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F44B11916A0AD0098A419 /* BLYArtist.m */; };
+		3F6F44B81917EC150098A419 /* BLYSearchSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F44B71917EC150098A419 /* BLYSearchSong.m */; };
+		3F6F87241894385300A964A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F87231894385300A964A3 /* README.md */; };
+		3F70785617ECE47C00670AA6 /* BLYPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F70785417ECE47C00670AA6 /* BLYPlayerViewController.m */; };
+		3F70785A17ECFA3E00670AA6 /* BLYSearchSongAutocompleteResultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F70785917ECFA3E00670AA6 /* BLYSearchSongAutocompleteResultsStore.m */; };
+		3F70785D17ECFEEA00670AA6 /* BLYSearchSongAutocompleteResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F70785C17ECFEEA00670AA6 /* BLYSearchSongAutocompleteResults.m */; };
+		3F70786517EDE44300670AA6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F70786417EDE44300670AA6 /* AVFoundation.framework */; };
+		3F70786717EDFBBF00670AA6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F70786617EDFBBF00670AA6 /* MediaPlayer.framework */; };
+		3F7380F3192E015A004F5783 /* BLYDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7380F1192E015A004F5783 /* BLYDiscoveryViewController.m */; };
+		3F7380F4192E015A004F5783 /* BLYDiscoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F7380F2192E015A004F5783 /* BLYDiscoveryViewController.xib */; };
+		3F7380F6192E2D4D004F5783 /* BLYVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F7380F5192E2D4D004F5783 /* BLYVideoCell.xib */; };
+		3F7380F9192E2EC5004F5783 /* BLYVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7380F8192E2EC5004F5783 /* BLYVideoCell.m */; };
+		3F817AFC2033025400A4558B /* 1.0.0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F817AFA2033025400A4558B /* 1.0.0.xcdatamodeld */; };
+		3F86AC50191A948C0056C156 /* BLYYoutubeUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86AC4F191A948C0056C156 /* BLYYoutubeUser.m */; };
+		3F86AC62191BBF1C0056C156 /* BLYVideoComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86AC61191BBF1C0056C156 /* BLYVideoComment.m */; };
+		3F86AC65191D12250056C156 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F86AC67191D12250056C156 /* Localizable.strings */; };
+		3F86AC6F191D21E30056C156 /* BLYPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F86AC6D191D21E30056C156 /* BLYPlayerViewController.xib */; };
+		3F978E8C1815614600AE2735 /* BLYErrorStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F978E8B1815614600AE2735 /* BLYErrorStore.m */; };
+		3F9D592A193A69F000F38355 /* BLYSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D5929193A69F000F38355 /* BLYSong.m */; };
+		3F9DF56520330F590039604F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DF56420330F590039604F /* ActivityViewController.swift */; };
+		3F9DF56D20331CCC0039604F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9DF56C20331CCC0039604F /* LaunchScreen.storyboard */; };
+		3F9DF570203335A60039604F /* BLYNavSearchBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DF56F203335A60039604F /* BLYNavSearchBarContainerView.m */; };
+		3F9F0B89182BE12C00C50980 /* BLYVideoURLType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F0B88182BE12C00C50980 /* BLYVideoURLType.m */; };
+		3F9F0B92182BE12C00C50980 /* BLYVideoSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F0B91182BE12C00C50980 /* BLYVideoSong.m */; };
+		3F9F0B95182BE17200C50980 /* BLYVideoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F0B94182BE17200C50980 /* BLYVideoStore.m */; };
+		3F9F0B98182BE5DA00C50980 /* BLYVideoURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F0B97182BE5DA00C50980 /* BLYVideoURL.m */; };
+		3FA0F9A2182E7D980070A047 /* BLYArtistSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0F9A1182E7D980070A047 /* BLYArtistSong.m */; };
+		3FA2B64E187B50FA002B1B30 /* BLYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B64D187B50FA002B1B30 /* BLYFileManager.m */; };
+		3FA2B654187F60ED002B1B30 /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B653187F60ED002B1B30 /* NSString+Levenshtein.m */; };
+		3FA80BAD1824333400466482 /* BLYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA80BAA1824333400466482 /* BLYBaseTabBarController.m */; };
+		3FA871831820099C001C32F9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA871821820099C001C32F9 /* CoreTelephony.framework */; };
+		3FA9542B2020D246003DC3F4 /* BLYMediaCenterThumb.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9542A2020D246003DC3F4 /* BLYMediaCenterThumb.xib */; };
+		3FA9542E2020D352003DC3F4 /* BLYMediaCenterThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9542D2020D352003DC3F4 /* BLYMediaCenterThumb.m */; };
+		3FA954342026100C003DC3F4 /* BLYTrendingSearch+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA954322026100C003DC3F4 /* BLYTrendingSearch+CoreDataClass.m */; };
+		3FA954352026100C003DC3F4 /* BLYTrendingSearch+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA954332026100C003DC3F4 /* BLYTrendingSearch+CoreDataProperties.m */; };
+		3FA954382026107F003DC3F4 /* BLYTrendingSearchStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA954372026107F003DC3F4 /* BLYTrendingSearchStore.m */; };
+		3FABF7651800542800810986 /* BLYFullScreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FABF7631800542800810986 /* BLYFullScreenPlayerViewController.m */; };
+		3FABF7661800542800810986 /* BLYFullScreenPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FABF7641800542800810986 /* BLYFullScreenPlayerViewController.xib */; };
+		3FABF77B1801F71600810986 /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FABF77A1801F71600810986 /* NSMutableArray+Shuffling.m */; };
+		3FAF8FD61930FF97004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FAF8FD51930FF97004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.xib */; };
+		3FAF8FD91930FFEB004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF8FD81930FFEB004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.m */; };
+		3FAF8FDC19339FA2004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF8FDB19339FA2004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.m */; };
+		3FAF8FDE19339FC6004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FAF8FDD19339FC6004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.xib */; };
+		3FAF8FE11933CC3C004ABBF6 /* BLYPlayerContainerChildVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF8FE01933CC3C004ABBF6 /* BLYPlayerContainerChildVideoListViewController.m */; };
+		3FC8D637193B5ECD009E15C9 /* BLYAlbumThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8D636193B5ECD009E15C9 /* BLYAlbumThumbnail.m */; };
+		3FCA5F821DA1786000920FE9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F57B97118887C70000AB667 /* AdSupport.framework */; };
+		3FCA5F8D1DA59DD700920FE9 /* BLYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA5F8C1DA59DD700920FE9 /* BLYAppDelegate.m */; };
+		3FCDCCAE17F08C1100A5535B /* BLYTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCCAD17F08C1100A5535B /* BLYTimeManager.m */; };
+		3FCDCCB217F1D51100A5535B /* BLYPlayerPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCCB017F1D51100A5535B /* BLYPlayerPlaylistViewController.m */; };
+		3FCDCCB317F1D51100A5535B /* BLYPlayerPlaylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCCB117F1D51100A5535B /* BLYPlayerPlaylistViewController.xib */; };
+		3FCDCCB917F47E1200A5535B /* BLYPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCCB817F47E1200A5535B /* BLYPlaylistViewController.m */; };
+		3FCDCCBB17F6271300A5535B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCDCCBA17F6271300A5535B /* CoreData.framework */; };
+		3FCDCD1F17F9C1D300A5535B /* BLYAlbumStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD1B17F9C1D300A5535B /* BLYAlbumStore.m */; };
+		3FCDCD2017F9C1D300A5535B /* BLYHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD1D17F9C1D300A5535B /* BLYHTTPConnection.m */; };
+		3FCDCD2317F9C1F000A5535B /* BLYStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD2217F9C1F000A5535B /* BLYStore.m */; };
+		3FCDCD3B17F9C6B500A5535B /* BLYExternalTopSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD2A17F9C6B500A5535B /* BLYExternalTopSong.m */; };
+		3FCDCD3E17F9C6B500A5535B /* BLYExternalTopSongCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD2F17F9C6B500A5535B /* BLYExternalTopSongCountry.m */; };
+		3FCDCD3F17F9C6B500A5535B /* BLYSongStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD3117F9C6B500A5535B /* BLYSongStore.m */; };
+		3FCDCD4217F9C6B500A5535B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCD3817F9C6B500A5535B /* InfoPlist.strings */; };
+		3FCDCD4617F9C7FE00A5535B /* BLYSearchSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD4417F9C7FE00A5535B /* BLYSearchSongViewController.m */; };
+		3FCDCD4717F9C7FE00A5535B /* BLYSearchSongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCD4517F9C7FE00A5535B /* BLYSearchSongViewController.xib */; };
+		3FCDCD5717FB1BFC00A5535B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD5617FB1BFC00A5535B /* Reachability.m */; };
+		3FCDCD5A17FB1C1100A5535B /* BLYNetworkStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD5917FB1C1100A5535B /* BLYNetworkStore.m */; };
+		3FCDCD5D17FB3B8800A5535B /* BLYPlayedSongStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD5C17FB3B8800A5535B /* BLYPlayedSongStore.m */; };
+		3FCDCD6017FB3DCE00A5535B /* BLYPlayedSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD5F17FB3DCE00A5535B /* BLYPlayedSong.m */; };
+		3FCDCD6417FB794400A5535B /* BLYSearchSongResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD6217FB794400A5535B /* BLYSearchSongResultsViewController.m */; };
+		3FCDCD6517FB794400A5535B /* BLYSearchSongResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCD6317FB794400A5535B /* BLYSearchSongResultsViewController.xib */; };
+		3FCDCD6817FB805700A5535B /* BLYSearchSongResultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD6717FB805700A5535B /* BLYSearchSongResultsStore.m */; };
+		3FCDCD6B17FC308E00A5535B /* BLYAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD6A17FC308E00A5535B /* BLYAlbumCell.m */; };
+		3FCDCD6D17FC30CA00A5535B /* BLYAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCD6C17FC30CA00A5535B /* BLYAlbumCell.xib */; };
+		3FCDCD7117FCC6F800A5535B /* BLYAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD6F17FCC6F800A5535B /* BLYAlbumViewController.m */; };
+		3FCDCD7217FCC6F800A5535B /* BLYAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCD7017FCC6F800A5535B /* BLYAlbumViewController.xib */; };
+		3FCDCD7817FDC5C300A5535B /* BLYSearchSongsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD7717FDC5C300A5535B /* BLYSearchSongsStore.m */; };
+		3FCDCD8D17FEFC9B00A5535B /* BLYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD8C17FEFC9B00A5535B /* BLYBaseViewController.m */; };
+		3FCDCD9317FF106000A5535B /* BLYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCD9217FF106000A5535B /* BLYBaseNavigationController.m */; };
+		3FDCFC0517EB5F0F0048B872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDCFC0417EB5F0F0048B872 /* Foundation.framework */; };
+		3FDCFC0717EB5F0F0048B872 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDCFC0617EB5F0F0048B872 /* CoreGraphics.framework */; };
+		3FDCFC0917EB5F0F0048B872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDCFC0817EB5F0F0048B872 /* UIKit.framework */; };
+		3FDCFC0F17EB5F0F0048B872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCFC0D17EB5F0F0048B872 /* InfoPlist.strings */; };
+		3FDCFC1117EB5F0F0048B872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCFC1017EB5F0F0048B872 /* main.m */; };
+		3FDCFC1717EB5F0F0048B872 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCFC1617EB5F0F0048B872 /* Images.xcassets */; };
+		3FDCFC1F17EB5F0F0048B872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDCFC0417EB5F0F0048B872 /* Foundation.framework */; };
+		3FDCFC2017EB5F0F0048B872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDCFC0817EB5F0F0048B872 /* UIKit.framework */; };
+		3FDCFC2817EB5F0F0048B872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCFC2617EB5F0F0048B872 /* InfoPlist.strings */; };
+		3FDCFC3B17EB639D0048B872 /* BLYExternalTopSongStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCFC3A17EB639D0048B872 /* BLYExternalTopSongStore.m */; };
+		3FDCFC3F17EB90AD0048B872 /* BLYExternalTopSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCFC3D17EB90AD0048B872 /* BLYExternalTopSongViewController.m */; };
+		3FDCFC4017EB90AD0048B872 /* BLYExternalTopSongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCFC3E17EB90AD0048B872 /* BLYExternalTopSongViewController.xib */; };
+		3FDCFC4417EB93D50048B872 /* BLYPlayedSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCFC4217EB93D50048B872 /* BLYPlayedSongViewController.m */; };
+		3FDCFC4517EB93D50048B872 /* BLYPlayedSongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCFC4317EB93D50048B872 /* BLYPlayedSongViewController.xib */; };
+		3FDCFC5017EC4E130048B872 /* BLYPlaylistSongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCFC4F17EC4E130048B872 /* BLYPlaylistSongCell.m */; };
+		3FDCFC5217EC4E380048B872 /* BLYPlaylistSongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCFC5117EC4E380048B872 /* BLYPlaylistSongCell.xib */; };
+		3FDCFC5817ECA1A00048B872 /* BLYPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCFC5717ECA1A00048B872 /* BLYPlaylist.m */; };
+		3FE0710A203C8D1C00E24476 /* brown_store.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 3FE07107203C8D1A00E24476 /* brown_store.sqlite-shm */; };
+		3FE0710B203C8D1C00E24476 /* brown_store.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 3FE07108203C8D1B00E24476 /* brown_store.sqlite-wal */; };
+		3FE0710C203C8D1C00E24476 /* brown_store.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3FE07109203C8D1C00E24476 /* brown_store.sqlite */; };
+		3FE0710E203D8DEB00E24476 /* BLYCurrentSongVideoChoiceFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0710D203D8DEB00E24476 /* BLYCurrentSongVideoChoiceFooter.xib */; };
+		3FE07111203D8E7100E24476 /* BLYCurrentSongVideoChoiceFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE07110203D8E7100E24476 /* BLYCurrentSongVideoChoiceFooterView.m */; };
+		3FE0E5B1181B2C650003FAB0 /* BLYPersonalTopSongStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E5B0181B2C650003FAB0 /* BLYPersonalTopSongStore.m */; };
+		3FE0E5B4181BC66E0003FAB0 /* BLYPersonalTopSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E5B3181BC66E0003FAB0 /* BLYPersonalTopSong.m */; };
+		3FE0E5B8181BF4490003FAB0 /* BLYPersonalTopSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E5B6181BF4490003FAB0 /* BLYPersonalTopSongViewController.m */; };
+		3FE0E5B9181BF4490003FAB0 /* BLYPersonalTopSongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0E5B7181BF4490003FAB0 /* BLYPersonalTopSongViewController.xib */; };
+		3FE0E5BC181BFDE80003FAB0 /* BLYTopSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E5BB181BFDE80003FAB0 /* BLYTopSongViewController.m */; };
+		3FE147BF18379C60005CB759 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE147BE18379C5F005CB759 /* SystemConfiguration.framework */; };
+		3FE4FE201DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4FE1E1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.m */; };
+		3FE4FE211DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4FE1F1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.xib */; };
+		B673B092A5EDF014777AE2FD /* libPods-Brown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A9F6F25E6845DB2F45A3C5 /* libPods-Brown.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDCFC2117EB5F0F0048B872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDCFBF917EB5F0F0048B872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDCFC0017EB5F0F0048B872;
+			remoteInfo = Blynde;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27A9F6F25E6845DB2F45A3C5 /* libPods-Brown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F00F7C31DC906CE006562C6 /* BLYAppSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAppSettingsStore.h; sourceTree = "<group>"; };
+		3F00F7C41DC906CE006562C6 /* BLYAppSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAppSettingsStore.m; sourceTree = "<group>"; };
+		3F0330DD1E0303B2007D380E /* BLYPlaylistViewControllerOnShakeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlaylistViewControllerOnShakeDataSource.h; sourceTree = "<group>"; };
+		3F0738561933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYCurrentSongVideoChoiceViewController.h; sourceTree = "<group>"; };
+		3F0738571933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYCurrentSongVideoChoiceViewController.m; sourceTree = "<group>"; };
+		3F0738581933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYCurrentSongVideoChoiceViewController.xib; sourceTree = "<group>"; };
+		3F07385E1934C59E000DAA4D /* BLYVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYVideo.h; sourceTree = "<group>"; };
+		3F07385F1934C59E000DAA4D /* BLYVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYVideo.m; sourceTree = "<group>"; };
+		3F0738651934FC36000DAA4D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F0738671935F422000DAA4D /* BLYPlayedAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedAlbum.h; sourceTree = "<group>"; };
+		3F0738681935F422000DAA4D /* BLYPlayedAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedAlbum.m; sourceTree = "<group>"; };
+		3F07386A1935F47F000DAA4D /* BLYPlayedAlbumStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedAlbumStore.h; sourceTree = "<group>"; };
+		3F07386B1935F47F000DAA4D /* BLYPlayedAlbumStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedAlbumStore.m; sourceTree = "<group>"; };
+		3F07386D1935F62B000DAA4D /* BLYAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbum.h; sourceTree = "<group>"; };
+		3F07386E1935F62B000DAA4D /* BLYAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbum.m; sourceTree = "<group>"; };
+		3F073870193614EA000DAA4D /* BLYAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumListViewController.h; sourceTree = "<group>"; };
+		3F073871193614EA000DAA4D /* BLYAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumListViewController.m; sourceTree = "<group>"; };
+		3F07387319363460000DAA4D /* BLYPlayedSongOnLoadHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedSongOnLoadHeaderView.h; sourceTree = "<group>"; };
+		3F07387419363460000DAA4D /* BLYPlayedSongOnLoadHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedSongOnLoadHeaderView.m; sourceTree = "<group>"; };
+		3F07387619363480000DAA4D /* BLYPlayedSongOnLoadHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYPlayedSongOnLoadHeaderView.xib; sourceTree = "<group>"; };
+		3F07387B193637B3000DAA4D /* BLYPlayedPlaylistSongStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedPlaylistSongStore.h; sourceTree = "<group>"; };
+		3F07387C193637B4000DAA4D /* BLYPlayedPlaylistSongStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedPlaylistSongStore.m; sourceTree = "<group>"; };
+		3F07388419365260000DAA4D /* BLYPlayedPlaylistSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedPlaylistSong.h; sourceTree = "<group>"; };
+		3F07388519365260000DAA4D /* BLYPlayedPlaylistSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedPlaylistSong.m; sourceTree = "<group>"; };
+		3F108C631DC6887800FD141C /* BLYAppSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAppSettingsViewController.h; sourceTree = "<group>"; };
+		3F108C641DC6887800FD141C /* BLYAppSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAppSettingsViewController.m; sourceTree = "<group>"; };
+		3F108C651DC6887800FD141C /* BLYAppSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYAppSettingsViewController.xib; sourceTree = "<group>"; };
+		3F1D94872032FD5500893E54 /* Brown-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Brown-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F212DDF1DA6E6D500A9E468 /* BLYAlbumHeaderInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumHeaderInfoView.h; sourceTree = "<group>"; };
+		3F212DE01DA6E6D500A9E468 /* BLYAlbumHeaderInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumHeaderInfoView.m; sourceTree = "<group>"; };
+		3F212DE21DA6FD9700A9E468 /* BLYAlbumHeaderInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYAlbumHeaderInfoView.xib; sourceTree = "<group>"; };
+		3F212DE41DA94E2E00A9E468 /* BLYAlbumsListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYAlbumsListHeaderView.xib; sourceTree = "<group>"; };
+		3F212DE61DA94F6E00A9E468 /* BLYAlbumsListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumsListHeaderView.m; sourceTree = "<group>"; };
+		3F212DE81DA94F9400A9E468 /* BLYAlbumsListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumsListHeaderView.h; sourceTree = "<group>"; };
+		3F212DE91DA95EA000A9E468 /* BLYPlayedAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYPlayedAlbumCell.xib; sourceTree = "<group>"; };
+		3F212DEB1DA95ED900A9E468 /* BLYPlayedAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedAlbumCell.m; sourceTree = "<group>"; };
+		3F212DED1DA95F1A00A9E468 /* BLYPlayedAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedAlbumCell.h; sourceTree = "<group>"; };
+		3F212DEE1DA98A4B00A9E468 /* ExtendedNavBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendedNavBarView.h; sourceTree = "<group>"; };
+		3F212DEF1DA98A4B00A9E468 /* ExtendedNavBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendedNavBarView.m; sourceTree = "<group>"; };
+		3F212DF41DBA634200A9E468 /* BLYSong+Caching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLYSong+Caching.h"; sourceTree = "<group>"; };
+		3F212DF51DBA634200A9E468 /* BLYSong+Caching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLYSong+Caching.m"; sourceTree = "<group>"; };
+		3F212DF71DBA6BB500A9E468 /* BLYSongCachingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSongCachingStore.h; sourceTree = "<group>"; };
+		3F212DF81DBA6BB500A9E468 /* BLYSongCachingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSongCachingStore.m; sourceTree = "<group>"; };
+		3F212DFA1DBB6B4B00A9E468 /* BLYAlbumNavItemTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYAlbumNavItemTitleView.xib; sourceTree = "<group>"; };
+		3F212DFE1DBB6BB900A9E468 /* BLYAlbumNavItemTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumNavItemTitleView.h; sourceTree = "<group>"; };
+		3F212DFF1DBB6BB900A9E468 /* BLYAlbumNavItemTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumNavItemTitleView.m; sourceTree = "<group>"; };
+		3F212E041DBBBC2A00A9E468 /* BLYCachedSong+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLYCachedSong+CoreDataClass.h"; sourceTree = "<group>"; };
+		3F212E051DBBBC2A00A9E468 /* BLYCachedSong+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLYCachedSong+CoreDataClass.m"; sourceTree = "<group>"; };
+		3F212E061DBBBC2A00A9E468 /* BLYCachedSong+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLYCachedSong+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3F212E071DBBBC2A00A9E468 /* BLYCachedSong+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLYCachedSong+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3F212E081DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLYCachedAlbum+CoreDataClass.h"; sourceTree = "<group>"; };
+		3F212E091DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLYCachedAlbum+CoreDataClass.m"; sourceTree = "<group>"; };
+		3F212E0A1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLYCachedAlbum+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3F212E0B1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLYCachedAlbum+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3F212E101DBBBD3E00A9E468 /* BLYCachedSongStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYCachedSongStore.h; sourceTree = "<group>"; };
+		3F212E111DBBBD3E00A9E468 /* BLYCachedSongStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYCachedSongStore.m; sourceTree = "<group>"; };
+		3F32F3D5180BF34600052CB3 /* NSString+Escaping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Escaping.h"; sourceTree = "<group>"; };
+		3F32F3D6180BF34600052CB3 /* NSString+Escaping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Escaping.m"; sourceTree = "<group>"; };
+		3F3585C1192F4E76001B2AB7 /* BLYPlayerContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayerContainerViewController.h; sourceTree = "<group>"; };
+		3F3585C2192F4E76001B2AB7 /* BLYPlayerContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayerContainerViewController.m; sourceTree = "<group>"; };
+		3F3585C7192F8C0C001B2AB7 /* BLYPlayerContainerChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayerContainerChildViewController.h; sourceTree = "<group>"; };
+		3F3585C8192F8C0C001B2AB7 /* BLYPlayerContainerChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayerContainerChildViewController.m; sourceTree = "<group>"; };
+		3F3585CA192FAC33001B2AB7 /* BLYPlayerNavItemTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayerNavItemTitleView.h; sourceTree = "<group>"; };
+		3F3585CB192FAC33001B2AB7 /* BLYPlayerNavItemTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayerNavItemTitleView.m; sourceTree = "<group>"; };
+		3F3585CD192FAD2B001B2AB7 /* BLYPlayerNavItemTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYPlayerNavItemTitleView.xib; sourceTree = "<group>"; };
+		3F4BCD0A184380270060CED9 /* BLYAlbum+Thumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLYAlbum+Thumbnail.h"; sourceTree = "<group>"; };
+		3F4BCD0B184380270060CED9 /* BLYAlbum+Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLYAlbum+Thumbnail.m"; sourceTree = "<group>"; };
+		3F4BCD101846706A0060CED9 /* BLYSearchSongAutocompleteResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongAutocompleteResult.h; sourceTree = "<group>"; };
+		3F4BCD111846706A0060CED9 /* BLYSearchSongAutocompleteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongAutocompleteResult.m; sourceTree = "<group>"; };
+		3F4BCD16184674F50060CED9 /* BLYSearchSongAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongAutocomplete.h; sourceTree = "<group>"; };
+		3F4BCD17184674F50060CED9 /* BLYSearchSongAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongAutocomplete.m; sourceTree = "<group>"; };
+		3F4BCD191846E7B60060CED9 /* BLYSearchSongResultProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongResultProtocol.h; sourceTree = "<group>"; };
+		3F4BCD1A1846E8D00060CED9 /* BLYSearchSongResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongResult.h; sourceTree = "<group>"; };
+		3F4BCD1B1846E8D00060CED9 /* BLYSearchSongResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongResult.m; sourceTree = "<group>"; };
+		3F4BCD33184B55C90060CED9 /* NSString+Sizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sizing.h"; sourceTree = "<group>"; };
+		3F4BCD34184B55C90060CED9 /* NSString+Sizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sizing.m"; sourceTree = "<group>"; };
+		3F4BCD36184CE21D0060CED9 /* NSString+Matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Matching.h"; sourceTree = "<group>"; };
+		3F4BCD37184CE21D0060CED9 /* NSString+Matching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Matching.m"; sourceTree = "<group>"; };
+		3F4BCD39184E1DBB0060CED9 /* BLYYoutubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYYoutubeExtractor.h; sourceTree = "<group>"; };
+		3F4BCD3A184E1DBB0060CED9 /* BLYYoutubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BLYYoutubeExtractor.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3F4BCD3C184E39CD0060CED9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3F57B97118887C70000AB667 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3F6B255220091DE200EC5788 /* UIAlertController+Orientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Orientation.h"; sourceTree = "<group>"; };
+		3F6B255320091DE200EC5788 /* UIAlertController+Orientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Orientation.m"; sourceTree = "<group>"; };
+		3F6F44B01916A0AD0098A419 /* BLYArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYArtist.h; sourceTree = "<group>"; };
+		3F6F44B11916A0AD0098A419 /* BLYArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYArtist.m; sourceTree = "<group>"; };
+		3F6F44B61917EC150098A419 /* BLYSearchSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSong.h; sourceTree = "<group>"; };
+		3F6F44B71917EC150098A419 /* BLYSearchSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSong.m; sourceTree = "<group>"; };
+		3F6F44BD191830ED0098A419 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		3F6F87231894385300A964A3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3F70785317ECE47C00670AA6 /* BLYPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayerViewController.h; sourceTree = "<group>"; };
+		3F70785417ECE47C00670AA6 /* BLYPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayerViewController.m; sourceTree = "<group>"; };
+		3F70785817ECFA3E00670AA6 /* BLYSearchSongAutocompleteResultsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongAutocompleteResultsStore.h; sourceTree = "<group>"; };
+		3F70785917ECFA3E00670AA6 /* BLYSearchSongAutocompleteResultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongAutocompleteResultsStore.m; sourceTree = "<group>"; };
+		3F70785B17ECFEEA00670AA6 /* BLYSearchSongAutocompleteResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongAutocompleteResults.h; sourceTree = "<group>"; };
+		3F70785C17ECFEEA00670AA6 /* BLYSearchSongAutocompleteResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongAutocompleteResults.m; sourceTree = "<group>"; };
+		3F70786417EDE44300670AA6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F70786617EDFBBF00670AA6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3F7380F0192E015A004F5783 /* BLYDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYDiscoveryViewController.h; sourceTree = "<group>"; };
+		3F7380F1192E015A004F5783 /* BLYDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYDiscoveryViewController.m; sourceTree = "<group>"; };
+		3F7380F2192E015A004F5783 /* BLYDiscoveryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYDiscoveryViewController.xib; sourceTree = "<group>"; };
+		3F7380F5192E2D4D004F5783 /* BLYVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYVideoCell.xib; sourceTree = "<group>"; };
+		3F7380F7192E2EC5004F5783 /* BLYVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYVideoCell.h; sourceTree = "<group>"; };
+		3F7380F8192E2EC5004F5783 /* BLYVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYVideoCell.m; sourceTree = "<group>"; };
+		3F817AFB2033025400A4558B /* 1.0.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 1.0.0.xcdatamodel; sourceTree = "<group>"; };
+		3F86AC4E191A948C0056C156 /* BLYYoutubeUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYYoutubeUser.h; sourceTree = "<group>"; };
+		3F86AC4F191A948C0056C156 /* BLYYoutubeUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYYoutubeUser.m; sourceTree = "<group>"; };
+		3F86AC60191BBF1C0056C156 /* BLYVideoComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYVideoComment.h; sourceTree = "<group>"; };
+		3F86AC61191BBF1C0056C156 /* BLYVideoComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYVideoComment.m; sourceTree = "<group>"; };
+		3F86AC66191D12250056C156 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3F86AC68191D12870056C156 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3F86AC6E191D21E30056C156 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/BLYPlayerViewController.xib; sourceTree = "<group>"; };
+		3F978E8A1815614600AE2735 /* BLYErrorStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYErrorStore.h; sourceTree = "<group>"; };
+		3F978E8B1815614600AE2735 /* BLYErrorStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYErrorStore.m; sourceTree = "<group>"; };
+		3F9D5928193A69F000F38355 /* BLYSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSong.h; sourceTree = "<group>"; };
+		3F9D5929193A69F000F38355 /* BLYSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSong.m; sourceTree = "<group>"; };
+		3F9DF56420330F590039604F /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		3F9DF56C20331CCC0039604F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F9DF56E203335A60039604F /* BLYNavSearchBarContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLYNavSearchBarContainerView.h; sourceTree = "<group>"; };
+		3F9DF56F203335A60039604F /* BLYNavSearchBarContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLYNavSearchBarContainerView.m; sourceTree = "<group>"; };
+		3F9F0B87182BE12C00C50980 /* BLYVideoURLType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYVideoURLType.h; sourceTree = "<group>"; };
+		3F9F0B88182BE12C00C50980 /* BLYVideoURLType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYVideoURLType.m; sourceTree = "<group>"; };
+		3F9F0B90182BE12C00C50980 /* BLYVideoSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYVideoSong.h; sourceTree = "<group>"; };
+		3F9F0B91182BE12C00C50980 /* BLYVideoSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYVideoSong.m; sourceTree = "<group>"; };
+		3F9F0B93182BE17200C50980 /* BLYVideoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYVideoStore.h; sourceTree = "<group>"; };
+		3F9F0B94182BE17200C50980 /* BLYVideoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYVideoStore.m; sourceTree = "<group>"; };
+		3F9F0B96182BE5DA00C50980 /* BLYVideoURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYVideoURL.h; sourceTree = "<group>"; };
+		3F9F0B97182BE5DA00C50980 /* BLYVideoURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYVideoURL.m; sourceTree = "<group>"; };
+		3FA0F9A0182E7D980070A047 /* BLYArtistSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYArtistSong.h; sourceTree = "<group>"; };
+		3FA0F9A1182E7D980070A047 /* BLYArtistSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYArtistSong.m; sourceTree = "<group>"; };
+		3FA2B64C187B50FA002B1B30 /* BLYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYFileManager.h; sourceTree = "<group>"; };
+		3FA2B64D187B50FA002B1B30 /* BLYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYFileManager.m; sourceTree = "<group>"; };
+		3FA2B650187D9AD5002B1B30 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		3FA2B652187F60ED002B1B30 /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Levenshtein.h"; sourceTree = "<group>"; };
+		3FA2B653187F60ED002B1B30 /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Levenshtein.m"; sourceTree = "<group>"; };
+		3FA80BA91824333400466482 /* BLYBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYBaseTabBarController.h; sourceTree = "<group>"; };
+		3FA80BAA1824333400466482 /* BLYBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYBaseTabBarController.m; sourceTree = "<group>"; };
+		3FA871821820099C001C32F9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3FA9542A2020D246003DC3F4 /* BLYMediaCenterThumb.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLYMediaCenterThumb.xib; sourceTree = "<group>"; };
+		3FA9542C2020D352003DC3F4 /* BLYMediaCenterThumb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLYMediaCenterThumb.h; sourceTree = "<group>"; };
+		3FA9542D2020D352003DC3F4 /* BLYMediaCenterThumb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLYMediaCenterThumb.m; sourceTree = "<group>"; };
+		3FA954302026100C003DC3F4 /* BLYTrendingSearch+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLYTrendingSearch+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3FA954312026100C003DC3F4 /* BLYTrendingSearch+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLYTrendingSearch+CoreDataClass.h"; sourceTree = "<group>"; };
+		3FA954322026100C003DC3F4 /* BLYTrendingSearch+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BLYTrendingSearch+CoreDataClass.m"; sourceTree = "<group>"; };
+		3FA954332026100C003DC3F4 /* BLYTrendingSearch+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BLYTrendingSearch+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3FA954362026107F003DC3F4 /* BLYTrendingSearchStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLYTrendingSearchStore.h; sourceTree = "<group>"; };
+		3FA954372026107F003DC3F4 /* BLYTrendingSearchStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLYTrendingSearchStore.m; sourceTree = "<group>"; };
+		3FABF7621800542800810986 /* BLYFullScreenPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYFullScreenPlayerViewController.h; sourceTree = "<group>"; };
+		3FABF7631800542800810986 /* BLYFullScreenPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYFullScreenPlayerViewController.m; sourceTree = "<group>"; };
+		3FABF7641800542800810986 /* BLYFullScreenPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYFullScreenPlayerViewController.xib; sourceTree = "<group>"; };
+		3FABF7791801F71600810986 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		3FABF77A1801F71600810986 /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		3FAF8FD51930FF97004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYDiscoveryRelatedVideosRefreshHeaderView.xib; sourceTree = "<group>"; };
+		3FAF8FD71930FFEB004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYDiscoveryRelatedVideosRefreshHeaderView.h; sourceTree = "<group>"; };
+		3FAF8FD81930FFEB004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYDiscoveryRelatedVideosRefreshHeaderView.m; sourceTree = "<group>"; };
+		3FAF8FDA19339FA2004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYDiscoveryRelatedVideosLoadedSongBottomView.h; sourceTree = "<group>"; };
+		3FAF8FDB19339FA2004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYDiscoveryRelatedVideosLoadedSongBottomView.m; sourceTree = "<group>"; };
+		3FAF8FDD19339FC6004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYDiscoveryRelatedVideosLoadedSongBottomView.xib; sourceTree = "<group>"; };
+		3FAF8FDF1933CC3C004ABBF6 /* BLYPlayerContainerChildVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayerContainerChildVideoListViewController.h; sourceTree = "<group>"; };
+		3FAF8FE01933CC3C004ABBF6 /* BLYPlayerContainerChildVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayerContainerChildVideoListViewController.m; sourceTree = "<group>"; };
+		3FC8D635193B5ECD009E15C9 /* BLYAlbumThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumThumbnail.h; sourceTree = "<group>"; };
+		3FC8D636193B5ECD009E15C9 /* BLYAlbumThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumThumbnail.m; sourceTree = "<group>"; };
+		3FCA5F8C1DA59DD700920FE9 /* BLYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAppDelegate.m; sourceTree = "<group>"; };
+		3FCDCCAC17F08C1100A5535B /* BLYTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYTimeManager.h; sourceTree = "<group>"; };
+		3FCDCCAD17F08C1100A5535B /* BLYTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYTimeManager.m; sourceTree = "<group>"; };
+		3FCDCCAF17F1D51100A5535B /* BLYPlayerPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayerPlaylistViewController.h; sourceTree = "<group>"; };
+		3FCDCCB017F1D51100A5535B /* BLYPlayerPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayerPlaylistViewController.m; sourceTree = "<group>"; };
+		3FCDCCB117F1D51100A5535B /* BLYPlayerPlaylistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYPlayerPlaylistViewController.xib; sourceTree = "<group>"; };
+		3FCDCCB717F47E1200A5535B /* BLYPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlaylistViewController.h; sourceTree = "<group>"; };
+		3FCDCCB817F47E1200A5535B /* BLYPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlaylistViewController.m; sourceTree = "<group>"; };
+		3FCDCCBA17F6271300A5535B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3FCDCD1A17F9C1D300A5535B /* BLYAlbumStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumStore.h; sourceTree = "<group>"; };
+		3FCDCD1B17F9C1D300A5535B /* BLYAlbumStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumStore.m; sourceTree = "<group>"; };
+		3FCDCD1C17F9C1D300A5535B /* BLYHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYHTTPConnection.h; sourceTree = "<group>"; };
+		3FCDCD1D17F9C1D300A5535B /* BLYHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYHTTPConnection.m; sourceTree = "<group>"; };
+		3FCDCD2117F9C1F000A5535B /* BLYStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYStore.h; sourceTree = "<group>"; };
+		3FCDCD2217F9C1F000A5535B /* BLYStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYStore.m; sourceTree = "<group>"; };
+		3FCDCD2917F9C6B500A5535B /* BLYExternalTopSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYExternalTopSong.h; sourceTree = "<group>"; };
+		3FCDCD2A17F9C6B500A5535B /* BLYExternalTopSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYExternalTopSong.m; sourceTree = "<group>"; };
+		3FCDCD2E17F9C6B500A5535B /* BLYExternalTopSongCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYExternalTopSongCountry.h; sourceTree = "<group>"; };
+		3FCDCD2F17F9C6B500A5535B /* BLYExternalTopSongCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYExternalTopSongCountry.m; sourceTree = "<group>"; };
+		3FCDCD3017F9C6B500A5535B /* BLYSongStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSongStore.h; sourceTree = "<group>"; };
+		3FCDCD3117F9C6B500A5535B /* BLYSongStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSongStore.m; sourceTree = "<group>"; };
+		3FCDCD3917F9C6B500A5535B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3FCDCD4317F9C7FE00A5535B /* BLYSearchSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongViewController.h; sourceTree = "<group>"; };
+		3FCDCD4417F9C7FE00A5535B /* BLYSearchSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongViewController.m; sourceTree = "<group>"; };
+		3FCDCD4517F9C7FE00A5535B /* BLYSearchSongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYSearchSongViewController.xib; sourceTree = "<group>"; };
+		3FCDCD5517FB1BFC00A5535B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3FCDCD5617FB1BFC00A5535B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3FCDCD5817FB1C1100A5535B /* BLYNetworkStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYNetworkStore.h; sourceTree = "<group>"; };
+		3FCDCD5917FB1C1100A5535B /* BLYNetworkStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYNetworkStore.m; sourceTree = "<group>"; };
+		3FCDCD5B17FB3B8800A5535B /* BLYPlayedSongStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedSongStore.h; sourceTree = "<group>"; };
+		3FCDCD5C17FB3B8800A5535B /* BLYPlayedSongStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedSongStore.m; sourceTree = "<group>"; };
+		3FCDCD5E17FB3DCE00A5535B /* BLYPlayedSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedSong.h; sourceTree = "<group>"; };
+		3FCDCD5F17FB3DCE00A5535B /* BLYPlayedSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedSong.m; sourceTree = "<group>"; };
+		3FCDCD6117FB794400A5535B /* BLYSearchSongResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongResultsViewController.h; sourceTree = "<group>"; };
+		3FCDCD6217FB794400A5535B /* BLYSearchSongResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongResultsViewController.m; sourceTree = "<group>"; };
+		3FCDCD6317FB794400A5535B /* BLYSearchSongResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYSearchSongResultsViewController.xib; sourceTree = "<group>"; };
+		3FCDCD6617FB805700A5535B /* BLYSearchSongResultsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongResultsStore.h; sourceTree = "<group>"; };
+		3FCDCD6717FB805700A5535B /* BLYSearchSongResultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongResultsStore.m; sourceTree = "<group>"; };
+		3FCDCD6917FC308E00A5535B /* BLYAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumCell.h; sourceTree = "<group>"; };
+		3FCDCD6A17FC308E00A5535B /* BLYAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumCell.m; sourceTree = "<group>"; };
+		3FCDCD6C17FC30CA00A5535B /* BLYAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYAlbumCell.xib; sourceTree = "<group>"; };
+		3FCDCD6E17FCC6F800A5535B /* BLYAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAlbumViewController.h; sourceTree = "<group>"; };
+		3FCDCD6F17FCC6F800A5535B /* BLYAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAlbumViewController.m; sourceTree = "<group>"; };
+		3FCDCD7017FCC6F800A5535B /* BLYAlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYAlbumViewController.xib; sourceTree = "<group>"; };
+		3FCDCD7617FDC5C300A5535B /* BLYSearchSongsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYSearchSongsStore.h; sourceTree = "<group>"; };
+		3FCDCD7717FDC5C300A5535B /* BLYSearchSongsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYSearchSongsStore.m; sourceTree = "<group>"; };
+		3FCDCD8B17FEFC9B00A5535B /* BLYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYBaseViewController.h; sourceTree = "<group>"; };
+		3FCDCD8C17FEFC9B00A5535B /* BLYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYBaseViewController.m; sourceTree = "<group>"; };
+		3FCDCD9117FF106000A5535B /* BLYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYBaseNavigationController.h; sourceTree = "<group>"; };
+		3FCDCD9217FF106000A5535B /* BLYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYBaseNavigationController.m; sourceTree = "<group>"; };
+		3FDCFC0117EB5F0F0048B872 /* Brown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDCFC0417EB5F0F0048B872 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FDCFC0617EB5F0F0048B872 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FDCFC0817EB5F0F0048B872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FDCFC0C17EB5F0F0048B872 /* Brown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brown-Info.plist"; sourceTree = "<group>"; };
+		3FDCFC1017EB5F0F0048B872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FDCFC1317EB5F0F0048B872 /* BLYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLYAppDelegate.h; sourceTree = "<group>"; };
+		3FDCFC1617EB5F0F0048B872 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FDCFC1C17EB5F0F0048B872 /* BrownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDCFC2517EB5F0F0048B872 /* BrownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrownTests-Info.plist"; sourceTree = "<group>"; };
+		3FDCFC3917EB639D0048B872 /* BLYExternalTopSongStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYExternalTopSongStore.h; sourceTree = "<group>"; };
+		3FDCFC3A17EB639D0048B872 /* BLYExternalTopSongStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYExternalTopSongStore.m; sourceTree = "<group>"; };
+		3FDCFC3C17EB90AD0048B872 /* BLYExternalTopSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYExternalTopSongViewController.h; sourceTree = "<group>"; };
+		3FDCFC3D17EB90AD0048B872 /* BLYExternalTopSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYExternalTopSongViewController.m; sourceTree = "<group>"; };
+		3FDCFC3E17EB90AD0048B872 /* BLYExternalTopSongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYExternalTopSongViewController.xib; sourceTree = "<group>"; };
+		3FDCFC4117EB93D50048B872 /* BLYPlayedSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlayedSongViewController.h; sourceTree = "<group>"; };
+		3FDCFC4217EB93D50048B872 /* BLYPlayedSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlayedSongViewController.m; sourceTree = "<group>"; };
+		3FDCFC4317EB93D50048B872 /* BLYPlayedSongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYPlayedSongViewController.xib; sourceTree = "<group>"; };
+		3FDCFC4617EB95DC0048B872 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FDCFC4717EB95DC0048B872 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FDCFC4E17EC4E130048B872 /* BLYPlaylistSongCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlaylistSongCell.h; sourceTree = "<group>"; };
+		3FDCFC4F17EC4E130048B872 /* BLYPlaylistSongCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlaylistSongCell.m; sourceTree = "<group>"; };
+		3FDCFC5117EC4E380048B872 /* BLYPlaylistSongCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYPlaylistSongCell.xib; sourceTree = "<group>"; };
+		3FDCFC5617ECA1A00048B872 /* BLYPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPlaylist.h; sourceTree = "<group>"; };
+		3FDCFC5717ECA1A00048B872 /* BLYPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPlaylist.m; sourceTree = "<group>"; };
+		3FE07107203C8D1A00E24476 /* brown_store.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brown_store.sqlite-shm"; sourceTree = "<group>"; };
+		3FE07108203C8D1B00E24476 /* brown_store.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brown_store.sqlite-wal"; sourceTree = "<group>"; };
+		3FE07109203C8D1C00E24476 /* brown_store.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = brown_store.sqlite; sourceTree = "<group>"; };
+		3FE0710D203D8DEB00E24476 /* BLYCurrentSongVideoChoiceFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLYCurrentSongVideoChoiceFooter.xib; sourceTree = "<group>"; };
+		3FE0710F203D8E7100E24476 /* BLYCurrentSongVideoChoiceFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLYCurrentSongVideoChoiceFooterView.h; sourceTree = "<group>"; };
+		3FE07110203D8E7100E24476 /* BLYCurrentSongVideoChoiceFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLYCurrentSongVideoChoiceFooterView.m; sourceTree = "<group>"; };
+		3FE0E5AF181B2C650003FAB0 /* BLYPersonalTopSongStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPersonalTopSongStore.h; sourceTree = "<group>"; };
+		3FE0E5B0181B2C650003FAB0 /* BLYPersonalTopSongStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPersonalTopSongStore.m; sourceTree = "<group>"; };
+		3FE0E5B2181BC66E0003FAB0 /* BLYPersonalTopSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPersonalTopSong.h; sourceTree = "<group>"; };
+		3FE0E5B3181BC66E0003FAB0 /* BLYPersonalTopSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPersonalTopSong.m; sourceTree = "<group>"; };
+		3FE0E5B5181BF4490003FAB0 /* BLYPersonalTopSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYPersonalTopSongViewController.h; sourceTree = "<group>"; };
+		3FE0E5B6181BF4490003FAB0 /* BLYPersonalTopSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYPersonalTopSongViewController.m; sourceTree = "<group>"; };
+		3FE0E5B7181BF4490003FAB0 /* BLYPersonalTopSongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYPersonalTopSongViewController.xib; sourceTree = "<group>"; };
+		3FE0E5BA181BFDE80003FAB0 /* BLYTopSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYTopSongViewController.h; sourceTree = "<group>"; };
+		3FE0E5BB181BFDE80003FAB0 /* BLYTopSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYTopSongViewController.m; sourceTree = "<group>"; };
+		3FE147BE18379C5F005CB759 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3FE4DC972033079E0027CACC /* Brown-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Brown-Prefix.pch"; sourceTree = "<group>"; };
+		3FE4FE1D1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYAppSettingsSettingCell.h; sourceTree = "<group>"; };
+		3FE4FE1E1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYAppSettingsSettingCell.m; sourceTree = "<group>"; };
+		3FE4FE1F1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLYAppSettingsSettingCell.xib; sourceTree = "<group>"; };
+		522400D3E12F508DA2F927E8 /* Pods-Brown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brown/Pods-Brown.release.xcconfig"; sourceTree = "<group>"; };
+		A02F55F3B09A05EE2A5CEB4A /* Pods-Brown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brown/Pods-Brown.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDCFBFE17EB5F0F0048B872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA5F821DA1786000920FE9 /* AdSupport.framework in Frameworks */,
+				3F4BCD3D184E39CD0060CED9 /* JavaScriptCore.framework in Frameworks */,
+				3FE147BF18379C60005CB759 /* SystemConfiguration.framework in Frameworks */,
+				3FA871831820099C001C32F9 /* CoreTelephony.framework in Frameworks */,
+				3FCDCCBB17F6271300A5535B /* CoreData.framework in Frameworks */,
+				3F70786717EDFBBF00670AA6 /* MediaPlayer.framework in Frameworks */,
+				3F70786517EDE44300670AA6 /* AVFoundation.framework in Frameworks */,
+				3FDCFC0717EB5F0F0048B872 /* CoreGraphics.framework in Frameworks */,
+				3FDCFC0917EB5F0F0048B872 /* UIKit.framework in Frameworks */,
+				3FDCFC0517EB5F0F0048B872 /* Foundation.framework in Frameworks */,
+				B673B092A5EDF014777AE2FD /* libPods-Brown.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCFC1917EB5F0F0048B872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCFC2017EB5F0F0048B872 /* UIKit.framework in Frameworks */,
+				3FDCFC1F17EB5F0F0048B872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12528466B63379BB01B38384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A02F55F3B09A05EE2A5CEB4A /* Pods-Brown.debug.xcconfig */,
+				522400D3E12F508DA2F927E8 /* Pods-Brown.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F0330DF1E0303DA007D380E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3F0330DD1E0303B2007D380E /* BLYPlaylistViewControllerOnShakeDataSource.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3F4BCD201848DAC90060CED9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCFC1317EB5F0F0048B872 /* BLYAppDelegate.h */,
+				3FCA5F8C1DA59DD700920FE9 /* BLYAppDelegate.m */,
+				3F4BCD251848DB760060CED9 /* Controllers */,
+				3F4BCD211848DADC0060CED9 /* Models */,
+				3F4BCD261848DBB00060CED9 /* Stores */,
+				3F4BCD221848DAE30060CED9 /* Views */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3F4BCD211848DADC0060CED9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F07386D1935F62B000DAA4D /* BLYAlbum.h */,
+				3F07386E1935F62B000DAA4D /* BLYAlbum.m */,
+				3FC8D635193B5ECD009E15C9 /* BLYAlbumThumbnail.h */,
+				3FC8D636193B5ECD009E15C9 /* BLYAlbumThumbnail.m */,
+				3F6F44B01916A0AD0098A419 /* BLYArtist.h */,
+				3F6F44B11916A0AD0098A419 /* BLYArtist.m */,
+				3FA0F9A0182E7D980070A047 /* BLYArtistSong.h */,
+				3FA0F9A1182E7D980070A047 /* BLYArtistSong.m */,
+				3F212E081DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataClass.h */,
+				3F212E091DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataClass.m */,
+				3F212E0A1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataProperties.h */,
+				3F212E0B1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataProperties.m */,
+				3F212E041DBBBC2A00A9E468 /* BLYCachedSong+CoreDataClass.h */,
+				3F212E051DBBBC2A00A9E468 /* BLYCachedSong+CoreDataClass.m */,
+				3F212E061DBBBC2A00A9E468 /* BLYCachedSong+CoreDataProperties.h */,
+				3F212E071DBBBC2A00A9E468 /* BLYCachedSong+CoreDataProperties.m */,
+				3FCDCD2917F9C6B500A5535B /* BLYExternalTopSong.h */,
+				3FCDCD2A17F9C6B500A5535B /* BLYExternalTopSong.m */,
+				3FCDCD2E17F9C6B500A5535B /* BLYExternalTopSongCountry.h */,
+				3FCDCD2F17F9C6B500A5535B /* BLYExternalTopSongCountry.m */,
+				3FA2B64C187B50FA002B1B30 /* BLYFileManager.h */,
+				3FA2B64D187B50FA002B1B30 /* BLYFileManager.m */,
+				3FCDCD1C17F9C1D300A5535B /* BLYHTTPConnection.h */,
+				3FCDCD1D17F9C1D300A5535B /* BLYHTTPConnection.m */,
+				3FE0E5B2181BC66E0003FAB0 /* BLYPersonalTopSong.h */,
+				3FE0E5B3181BC66E0003FAB0 /* BLYPersonalTopSong.m */,
+				3F0738671935F422000DAA4D /* BLYPlayedAlbum.h */,
+				3F0738681935F422000DAA4D /* BLYPlayedAlbum.m */,
+				3F07388419365260000DAA4D /* BLYPlayedPlaylistSong.h */,
+				3F07388519365260000DAA4D /* BLYPlayedPlaylistSong.m */,
+				3FCDCD5E17FB3DCE00A5535B /* BLYPlayedSong.h */,
+				3FCDCD5F17FB3DCE00A5535B /* BLYPlayedSong.m */,
+				3FDCFC5617ECA1A00048B872 /* BLYPlaylist.h */,
+				3FDCFC5717ECA1A00048B872 /* BLYPlaylist.m */,
+				3F6F44B61917EC150098A419 /* BLYSearchSong.h */,
+				3F6F44B71917EC150098A419 /* BLYSearchSong.m */,
+				3F4BCD16184674F50060CED9 /* BLYSearchSongAutocomplete.h */,
+				3F4BCD17184674F50060CED9 /* BLYSearchSongAutocomplete.m */,
+				3F4BCD101846706A0060CED9 /* BLYSearchSongAutocompleteResult.h */,
+				3F4BCD111846706A0060CED9 /* BLYSearchSongAutocompleteResult.m */,
+				3F70785B17ECFEEA00670AA6 /* BLYSearchSongAutocompleteResults.h */,
+				3F70785C17ECFEEA00670AA6 /* BLYSearchSongAutocompleteResults.m */,
+				3F4BCD1A1846E8D00060CED9 /* BLYSearchSongResult.h */,
+				3F4BCD1B1846E8D00060CED9 /* BLYSearchSongResult.m */,
+				3F9D5928193A69F000F38355 /* BLYSong.h */,
+				3F9D5929193A69F000F38355 /* BLYSong.m */,
+				3FCDCCAC17F08C1100A5535B /* BLYTimeManager.h */,
+				3FCDCCAD17F08C1100A5535B /* BLYTimeManager.m */,
+				3FA954312026100C003DC3F4 /* BLYTrendingSearch+CoreDataClass.h */,
+				3FA954322026100C003DC3F4 /* BLYTrendingSearch+CoreDataClass.m */,
+				3FA954302026100C003DC3F4 /* BLYTrendingSearch+CoreDataProperties.h */,
+				3FA954332026100C003DC3F4 /* BLYTrendingSearch+CoreDataProperties.m */,
+				3F07385E1934C59E000DAA4D /* BLYVideo.h */,
+				3F07385F1934C59E000DAA4D /* BLYVideo.m */,
+				3F86AC60191BBF1C0056C156 /* BLYVideoComment.h */,
+				3F86AC61191BBF1C0056C156 /* BLYVideoComment.m */,
+				3F9F0B90182BE12C00C50980 /* BLYVideoSong.h */,
+				3F9F0B91182BE12C00C50980 /* BLYVideoSong.m */,
+				3F9F0B96182BE5DA00C50980 /* BLYVideoURL.h */,
+				3F9F0B97182BE5DA00C50980 /* BLYVideoURL.m */,
+				3F9F0B87182BE12C00C50980 /* BLYVideoURLType.h */,
+				3F9F0B88182BE12C00C50980 /* BLYVideoURLType.m */,
+				3F4BCD39184E1DBB0060CED9 /* BLYYoutubeExtractor.h */,
+				3F4BCD3A184E1DBB0060CED9 /* BLYYoutubeExtractor.m */,
+				3F86AC4E191A948C0056C156 /* BLYYoutubeUser.h */,
+				3F86AC4F191A948C0056C156 /* BLYYoutubeUser.m */,
+				3F4BCD2D1848DEE20060CED9 /* Categories */,
+				3F4BCD2F1848E0A60060CED9 /* Protocols */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3F4BCD221848DAE30060CED9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0710D203D8DEB00E24476 /* BLYCurrentSongVideoChoiceFooter.xib */,
+				3FE0710F203D8E7100E24476 /* BLYCurrentSongVideoChoiceFooterView.h */,
+				3FE07110203D8E7100E24476 /* BLYCurrentSongVideoChoiceFooterView.m */,
+				3F9DF56E203335A60039604F /* BLYNavSearchBarContainerView.h */,
+				3F9DF56F203335A60039604F /* BLYNavSearchBarContainerView.m */,
+				3FCDCD6917FC308E00A5535B /* BLYAlbumCell.h */,
+				3FCDCD6A17FC308E00A5535B /* BLYAlbumCell.m */,
+				3FCDCD6C17FC30CA00A5535B /* BLYAlbumCell.xib */,
+				3F212DDF1DA6E6D500A9E468 /* BLYAlbumHeaderInfoView.h */,
+				3F212DE01DA6E6D500A9E468 /* BLYAlbumHeaderInfoView.m */,
+				3F212DE21DA6FD9700A9E468 /* BLYAlbumHeaderInfoView.xib */,
+				3F212DFE1DBB6BB900A9E468 /* BLYAlbumNavItemTitleView.h */,
+				3F212DFF1DBB6BB900A9E468 /* BLYAlbumNavItemTitleView.m */,
+				3F212DFA1DBB6B4B00A9E468 /* BLYAlbumNavItemTitleView.xib */,
+				3F212DE81DA94F9400A9E468 /* BLYAlbumsListHeaderView.h */,
+				3F212DE61DA94F6E00A9E468 /* BLYAlbumsListHeaderView.m */,
+				3F212DE41DA94E2E00A9E468 /* BLYAlbumsListHeaderView.xib */,
+				3FCDCD7017FCC6F800A5535B /* BLYAlbumViewController.xib */,
+				3FE4FE1D1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.h */,
+				3FE4FE1E1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.m */,
+				3FE4FE1F1DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.xib */,
+				3F108C651DC6887800FD141C /* BLYAppSettingsViewController.xib */,
+				3F0738581933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.xib */,
+				3FAF8FDA19339FA2004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.h */,
+				3FAF8FDB19339FA2004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.m */,
+				3FAF8FDD19339FC6004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.xib */,
+				3FAF8FD71930FFEB004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.h */,
+				3FAF8FD81930FFEB004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.m */,
+				3FAF8FD51930FF97004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.xib */,
+				3F7380F2192E015A004F5783 /* BLYDiscoveryViewController.xib */,
+				3FDCFC3E17EB90AD0048B872 /* BLYExternalTopSongViewController.xib */,
+				3FABF7641800542800810986 /* BLYFullScreenPlayerViewController.xib */,
+				3FA9542C2020D352003DC3F4 /* BLYMediaCenterThumb.h */,
+				3FA9542D2020D352003DC3F4 /* BLYMediaCenterThumb.m */,
+				3FA9542A2020D246003DC3F4 /* BLYMediaCenterThumb.xib */,
+				3FE0E5B7181BF4490003FAB0 /* BLYPersonalTopSongViewController.xib */,
+				3F212DED1DA95F1A00A9E468 /* BLYPlayedAlbumCell.h */,
+				3F212DEB1DA95ED900A9E468 /* BLYPlayedAlbumCell.m */,
+				3F212DE91DA95EA000A9E468 /* BLYPlayedAlbumCell.xib */,
+				3F07387319363460000DAA4D /* BLYPlayedSongOnLoadHeaderView.h */,
+				3F07387419363460000DAA4D /* BLYPlayedSongOnLoadHeaderView.m */,
+				3F07387619363480000DAA4D /* BLYPlayedSongOnLoadHeaderView.xib */,
+				3FDCFC4317EB93D50048B872 /* BLYPlayedSongViewController.xib */,
+				3F3585CA192FAC33001B2AB7 /* BLYPlayerNavItemTitleView.h */,
+				3F3585CB192FAC33001B2AB7 /* BLYPlayerNavItemTitleView.m */,
+				3F3585CD192FAD2B001B2AB7 /* BLYPlayerNavItemTitleView.xib */,
+				3FCDCCB117F1D51100A5535B /* BLYPlayerPlaylistViewController.xib */,
+				3F86AC6D191D21E30056C156 /* BLYPlayerViewController.xib */,
+				3FDCFC4E17EC4E130048B872 /* BLYPlaylistSongCell.h */,
+				3FDCFC4F17EC4E130048B872 /* BLYPlaylistSongCell.m */,
+				3FDCFC5117EC4E380048B872 /* BLYPlaylistSongCell.xib */,
+				3FCDCD6317FB794400A5535B /* BLYSearchSongResultsViewController.xib */,
+				3FCDCD4517F9C7FE00A5535B /* BLYSearchSongViewController.xib */,
+				3F7380F7192E2EC5004F5783 /* BLYVideoCell.h */,
+				3F7380F8192E2EC5004F5783 /* BLYVideoCell.m */,
+				3F7380F5192E2D4D004F5783 /* BLYVideoCell.xib */,
+				3F212DEE1DA98A4B00A9E468 /* ExtendedNavBarView.h */,
+				3F212DEF1DA98A4B00A9E468 /* ExtendedNavBarView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3F4BCD251848DB760060CED9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F9DF56420330F590039604F /* ActivityViewController.swift */,
+				3F6B255220091DE200EC5788 /* UIAlertController+Orientation.h */,
+				3F6B255320091DE200EC5788 /* UIAlertController+Orientation.m */,
+				3F073870193614EA000DAA4D /* BLYAlbumListViewController.h */,
+				3F073871193614EA000DAA4D /* BLYAlbumListViewController.m */,
+				3FCDCD6E17FCC6F800A5535B /* BLYAlbumViewController.h */,
+				3FCDCD6F17FCC6F800A5535B /* BLYAlbumViewController.m */,
+				3F108C631DC6887800FD141C /* BLYAppSettingsViewController.h */,
+				3F108C641DC6887800FD141C /* BLYAppSettingsViewController.m */,
+				3FCDCD9117FF106000A5535B /* BLYBaseNavigationController.h */,
+				3FCDCD9217FF106000A5535B /* BLYBaseNavigationController.m */,
+				3FA80BA91824333400466482 /* BLYBaseTabBarController.h */,
+				3FA80BAA1824333400466482 /* BLYBaseTabBarController.m */,
+				3FCDCD8B17FEFC9B00A5535B /* BLYBaseViewController.h */,
+				3FCDCD8C17FEFC9B00A5535B /* BLYBaseViewController.m */,
+				3F0738561933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.h */,
+				3F0738571933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.m */,
+				3F7380F0192E015A004F5783 /* BLYDiscoveryViewController.h */,
+				3F7380F1192E015A004F5783 /* BLYDiscoveryViewController.m */,
+				3FDCFC3C17EB90AD0048B872 /* BLYExternalTopSongViewController.h */,
+				3FDCFC3D17EB90AD0048B872 /* BLYExternalTopSongViewController.m */,
+				3FABF7621800542800810986 /* BLYFullScreenPlayerViewController.h */,
+				3FABF7631800542800810986 /* BLYFullScreenPlayerViewController.m */,
+				3FE0E5B5181BF4490003FAB0 /* BLYPersonalTopSongViewController.h */,
+				3FE0E5B6181BF4490003FAB0 /* BLYPersonalTopSongViewController.m */,
+				3FDCFC4117EB93D50048B872 /* BLYPlayedSongViewController.h */,
+				3FDCFC4217EB93D50048B872 /* BLYPlayedSongViewController.m */,
+				3FAF8FDF1933CC3C004ABBF6 /* BLYPlayerContainerChildVideoListViewController.h */,
+				3FAF8FE01933CC3C004ABBF6 /* BLYPlayerContainerChildVideoListViewController.m */,
+				3F3585C7192F8C0C001B2AB7 /* BLYPlayerContainerChildViewController.h */,
+				3F3585C8192F8C0C001B2AB7 /* BLYPlayerContainerChildViewController.m */,
+				3F3585C1192F4E76001B2AB7 /* BLYPlayerContainerViewController.h */,
+				3F3585C2192F4E76001B2AB7 /* BLYPlayerContainerViewController.m */,
+				3FCDCCAF17F1D51100A5535B /* BLYPlayerPlaylistViewController.h */,
+				3FCDCCB017F1D51100A5535B /* BLYPlayerPlaylistViewController.m */,
+				3F70785317ECE47C00670AA6 /* BLYPlayerViewController.h */,
+				3F70785417ECE47C00670AA6 /* BLYPlayerViewController.m */,
+				3FCDCCB717F47E1200A5535B /* BLYPlaylistViewController.h */,
+				3FCDCCB817F47E1200A5535B /* BLYPlaylistViewController.m */,
+				3FCDCD6117FB794400A5535B /* BLYSearchSongResultsViewController.h */,
+				3FCDCD6217FB794400A5535B /* BLYSearchSongResultsViewController.m */,
+				3FCDCD4317F9C7FE00A5535B /* BLYSearchSongViewController.h */,
+				3FCDCD4417F9C7FE00A5535B /* BLYSearchSongViewController.m */,
+				3FE0E5BA181BFDE80003FAB0 /* BLYTopSongViewController.h */,
+				3FE0E5BB181BFDE80003FAB0 /* BLYTopSongViewController.m */,
+				3F0330DF1E0303DA007D380E /* Protocols */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3F4BCD261848DBB00060CED9 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCD1A17F9C1D300A5535B /* BLYAlbumStore.h */,
+				3FCDCD1B17F9C1D300A5535B /* BLYAlbumStore.m */,
+				3F00F7C31DC906CE006562C6 /* BLYAppSettingsStore.h */,
+				3F00F7C41DC906CE006562C6 /* BLYAppSettingsStore.m */,
+				3F212E101DBBBD3E00A9E468 /* BLYCachedSongStore.h */,
+				3F212E111DBBBD3E00A9E468 /* BLYCachedSongStore.m */,
+				3F978E8A1815614600AE2735 /* BLYErrorStore.h */,
+				3F978E8B1815614600AE2735 /* BLYErrorStore.m */,
+				3FDCFC3917EB639D0048B872 /* BLYExternalTopSongStore.h */,
+				3FDCFC3A17EB639D0048B872 /* BLYExternalTopSongStore.m */,
+				3FCDCD5817FB1C1100A5535B /* BLYNetworkStore.h */,
+				3FCDCD5917FB1C1100A5535B /* BLYNetworkStore.m */,
+				3FE0E5AF181B2C650003FAB0 /* BLYPersonalTopSongStore.h */,
+				3FE0E5B0181B2C650003FAB0 /* BLYPersonalTopSongStore.m */,
+				3F07386A1935F47F000DAA4D /* BLYPlayedAlbumStore.h */,
+				3F07386B1935F47F000DAA4D /* BLYPlayedAlbumStore.m */,
+				3F07387B193637B3000DAA4D /* BLYPlayedPlaylistSongStore.h */,
+				3F07387C193637B4000DAA4D /* BLYPlayedPlaylistSongStore.m */,
+				3FCDCD5B17FB3B8800A5535B /* BLYPlayedSongStore.h */,
+				3FCDCD5C17FB3B8800A5535B /* BLYPlayedSongStore.m */,
+				3F70785817ECFA3E00670AA6 /* BLYSearchSongAutocompleteResultsStore.h */,
+				3F70785917ECFA3E00670AA6 /* BLYSearchSongAutocompleteResultsStore.m */,
+				3FCDCD6617FB805700A5535B /* BLYSearchSongResultsStore.h */,
+				3FA954362026107F003DC3F4 /* BLYTrendingSearchStore.h */,
+				3FA954372026107F003DC3F4 /* BLYTrendingSearchStore.m */,
+				3FCDCD6717FB805700A5535B /* BLYSearchSongResultsStore.m */,
+				3FCDCD7617FDC5C300A5535B /* BLYSearchSongsStore.h */,
+				3FCDCD7717FDC5C300A5535B /* BLYSearchSongsStore.m */,
+				3F212DF71DBA6BB500A9E468 /* BLYSongCachingStore.h */,
+				3F212DF81DBA6BB500A9E468 /* BLYSongCachingStore.m */,
+				3FCDCD3017F9C6B500A5535B /* BLYSongStore.h */,
+				3FCDCD3117F9C6B500A5535B /* BLYSongStore.m */,
+				3FCDCD2117F9C1F000A5535B /* BLYStore.h */,
+				3FCDCD2217F9C1F000A5535B /* BLYStore.m */,
+				3F9F0B93182BE17200C50980 /* BLYVideoStore.h */,
+				3F9F0B94182BE17200C50980 /* BLYVideoStore.m */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		3F4BCD281848DC8E0060CED9 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3F4BCD2E1848DF3A0060CED9 /* I18n */,
+				3F817AFA2033025400A4558B /* 1.0.0.xcdatamodeld */,
+				3FDCFC1617EB5F0F0048B872 /* Images.xcassets */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		3F4BCD2A1848DD230060CED9 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3F4BCD2C1848DE230060CED9 /* Reachability */,
+			);
+			name = Dependencies;
+			path = Brown;
+			sourceTree = "<group>";
+		};
+		3F4BCD2C1848DE230060CED9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCD5517FB1BFC00A5535B /* Reachability.h */,
+				3FCDCD5617FB1BFC00A5535B /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3F4BCD2D1848DEE20060CED9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3F4BCD0A184380270060CED9 /* BLYAlbum+Thumbnail.h */,
+				3F4BCD0B184380270060CED9 /* BLYAlbum+Thumbnail.m */,
+				3F212DF41DBA634200A9E468 /* BLYSong+Caching.h */,
+				3F212DF51DBA634200A9E468 /* BLYSong+Caching.m */,
+				3FABF7791801F71600810986 /* NSMutableArray+Shuffling.h */,
+				3FABF77A1801F71600810986 /* NSMutableArray+Shuffling.m */,
+				3F32F3D5180BF34600052CB3 /* NSString+Escaping.h */,
+				3F32F3D6180BF34600052CB3 /* NSString+Escaping.m */,
+				3FA2B652187F60ED002B1B30 /* NSString+Levenshtein.h */,
+				3FA2B653187F60ED002B1B30 /* NSString+Levenshtein.m */,
+				3F4BCD36184CE21D0060CED9 /* NSString+Matching.h */,
+				3F4BCD37184CE21D0060CED9 /* NSString+Matching.m */,
+				3F4BCD33184B55C90060CED9 /* NSString+Sizing.h */,
+				3F4BCD34184B55C90060CED9 /* NSString+Sizing.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		3F4BCD2E1848DF3A0060CED9 /* I18n */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCD3717F9C6B500A5535B /* fr.lproj */,
+			);
+			name = I18n;
+			sourceTree = "<group>";
+		};
+		3F4BCD2F1848E0A60060CED9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3F4BCD191846E7B60060CED9 /* BLYSearchSongResultProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3FCDCD3717F9C6B500A5535B /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCD3817F9C6B500A5535B /* InfoPlist.strings */,
+			);
+			path = fr.lproj;
+			sourceTree = "<group>";
+		};
+		3FDCFBF817EB5F0F0048B872 = {
+			isa = PBXGroup;
+			children = (
+				3FDCFC0A17EB5F0F0048B872 /* Brown */,
+				3F4BCD2A1848DD230060CED9 /* Dependencies */,
+				3FDCFC2317EB5F0F0048B872 /* BrownTests */,
+				3FDCFC0317EB5F0F0048B872 /* Frameworks */,
+				3FDCFC0217EB5F0F0048B872 /* Products */,
+				12528466B63379BB01B38384 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDCFC0217EB5F0F0048B872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCFC0117EB5F0F0048B872 /* Brown.app */,
+				3FDCFC1C17EB5F0F0048B872 /* BrownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDCFC0317EB5F0F0048B872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0738651934FC36000DAA4D /* QuartzCore.framework */,
+				3F6F44BD191830ED0098A419 /* iAd.framework */,
+				3F57B97118887C70000AB667 /* AdSupport.framework */,
+				3FA2B650187D9AD5002B1B30 /* Crashlytics.framework */,
+				3F4BCD3C184E39CD0060CED9 /* JavaScriptCore.framework */,
+				3F70786417EDE44300670AA6 /* AVFoundation.framework */,
+				3FCDCCBA17F6271300A5535B /* CoreData.framework */,
+				3FDCFC0617EB5F0F0048B872 /* CoreGraphics.framework */,
+				3FA871821820099C001C32F9 /* CoreTelephony.framework */,
+				3FDCFC0417EB5F0F0048B872 /* Foundation.framework */,
+				3F70786617EDFBBF00670AA6 /* MediaPlayer.framework */,
+				3FE147BE18379C5F005CB759 /* SystemConfiguration.framework */,
+				3FDCFC0817EB5F0F0048B872 /* UIKit.framework */,
+				27A9F6F25E6845DB2F45A3C5 /* libPods-Brown.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FDCFC0A17EB5F0F0048B872 /* Brown */ = {
+			isa = PBXGroup;
+			children = (
+				3F4BCD201848DAC90060CED9 /* App */,
+				3F86AC67191D12250056C156 /* Localizable.strings */,
+				3F6F87231894385300A964A3 /* README.md */,
+				3F4BCD281848DC8E0060CED9 /* Ressources */,
+				3FDCFC0B17EB5F0F0048B872 /* Supporting Files */,
+			);
+			path = Brown;
+			sourceTree = "<group>";
+		};
+		3FDCFC0B17EB5F0F0048B872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE07109203C8D1C00E24476 /* brown_store.sqlite */,
+				3FE07107203C8D1A00E24476 /* brown_store.sqlite-shm */,
+				3FE07108203C8D1B00E24476 /* brown_store.sqlite-wal */,
+				3F9DF56C20331CCC0039604F /* LaunchScreen.storyboard */,
+				3FE4DC972033079E0027CACC /* Brown-Prefix.pch */,
+				3F1D94872032FD5500893E54 /* Brown-Bridging-Header.h */,
+				3FDCFC0C17EB5F0F0048B872 /* Brown-Info.plist */,
+				3FDCFC0D17EB5F0F0048B872 /* InfoPlist.strings */,
+				3FDCFC1017EB5F0F0048B872 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FDCFC2317EB5F0F0048B872 /* BrownTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCFC2417EB5F0F0048B872 /* Supporting Files */,
+			);
+			path = BrownTests;
+			sourceTree = "<group>";
+		};
+		3FDCFC2417EB5F0F0048B872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCFC2517EB5F0F0048B872 /* BrownTests-Info.plist */,
+				3FDCFC2617EB5F0F0048B872 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDCFC0017EB5F0F0048B872 /* Brown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDCFC2D17EB5F0F0048B872 /* Build configuration list for PBXNativeTarget "Brown" */;
+			buildPhases = (
+				331317DE6766A10A6620D1CD /* [CP] Check Pods Manifest.lock */,
+				3FDCFBFD17EB5F0F0048B872 /* Sources */,
+				3FDCFBFE17EB5F0F0048B872 /* Frameworks */,
+				3FDCFBFF17EB5F0F0048B872 /* Resources */,
+				3F3EDF9F1F63DAF8001A16FE /* ShellScript */,
+				22F85D206D9277A3453C4E0F /* [CP] Embed Pods Frameworks */,
+				4C4E441D40967A4BBB42F66A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brown;
+			productName = Blynde;
+			productReference = 3FDCFC0117EB5F0F0048B872 /* Brown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDCFC1B17EB5F0F0048B872 /* BrownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDCFC3017EB5F0F0048B872 /* Build configuration list for PBXNativeTarget "BrownTests" */;
+			buildPhases = (
+				3FDCFC1817EB5F0F0048B872 /* Sources */,
+				3FDCFC1917EB5F0F0048B872 /* Frameworks */,
+				3FDCFC1A17EB5F0F0048B872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDCFC2217EB5F0F0048B872 /* PBXTargetDependency */,
+			);
+			name = BrownTests;
+			productName = BlyndeTests;
+			productReference = 3FDCFC1C17EB5F0F0048B872 /* BrownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDCFBF917EB5F0F0048B872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BLY;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jeremy Levy";
+				TargetAttributes = {
+					3FDCFC0017EB5F0F0048B872 = {
+						DevelopmentTeam = 7W98S9CGY9;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					3FDCFC1B17EB5F0F0048B872 = {
+						TestTargetID = 3FDCFC0017EB5F0F0048B872;
+					};
+				};
+			};
+			buildConfigurationList = 3FDCFBFC17EB5F0F0048B872 /* Build configuration list for PBXProject "Brown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 3FDCFBF817EB5F0F0048B872;
+			productRefGroup = 3FDCFC0217EB5F0F0048B872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDCFC0017EB5F0F0048B872 /* Brown */,
+				3FDCFC1B17EB5F0F0048B872 /* BrownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDCFBFF17EB5F0F0048B872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE0710C203C8D1C00E24476 /* brown_store.sqlite in Resources */,
+				3F07385A1933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.xib in Resources */,
+				3FE0710E203D8DEB00E24476 /* BLYCurrentSongVideoChoiceFooter.xib in Resources */,
+				3FCDCCB317F1D51100A5535B /* BLYPlayerPlaylistViewController.xib in Resources */,
+				3F9DF56D20331CCC0039604F /* LaunchScreen.storyboard in Resources */,
+				3FCDCD6D17FC30CA00A5535B /* BLYAlbumCell.xib in Resources */,
+				3FCDCD7217FCC6F800A5535B /* BLYAlbumViewController.xib in Resources */,
+				3FDCFC5217EC4E380048B872 /* BLYPlaylistSongCell.xib in Resources */,
+				3FE4FE211DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.xib in Resources */,
+				3FE0710B203C8D1C00E24476 /* brown_store.sqlite-wal in Resources */,
+				3F86AC65191D12250056C156 /* Localizable.strings in Resources */,
+				3FDCFC0F17EB5F0F0048B872 /* InfoPlist.strings in Resources */,
+				3FAF8FDE19339FC6004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.xib in Resources */,
+				3FDCFC4517EB93D50048B872 /* BLYPlayedSongViewController.xib in Resources */,
+				3F212DE51DA94E2E00A9E468 /* BLYAlbumsListHeaderView.xib in Resources */,
+				3F07387719363480000DAA4D /* BLYPlayedSongOnLoadHeaderView.xib in Resources */,
+				3F7380F6192E2D4D004F5783 /* BLYVideoCell.xib in Resources */,
+				3F212DEA1DA95EA000A9E468 /* BLYPlayedAlbumCell.xib in Resources */,
+				3FCDCD4717F9C7FE00A5535B /* BLYSearchSongViewController.xib in Resources */,
+				3FAF8FD61930FF97004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.xib in Resources */,
+				3F212DFB1DBB6B4B00A9E468 /* BLYAlbumNavItemTitleView.xib in Resources */,
+				3F108C671DC6887800FD141C /* BLYAppSettingsViewController.xib in Resources */,
+				3F212DE31DA6FD9700A9E468 /* BLYAlbumHeaderInfoView.xib in Resources */,
+				3FDCFC4017EB90AD0048B872 /* BLYExternalTopSongViewController.xib in Resources */,
+				3F86AC6F191D21E30056C156 /* BLYPlayerViewController.xib in Resources */,
+				3FE0E5B9181BF4490003FAB0 /* BLYPersonalTopSongViewController.xib in Resources */,
+				3F3585CE192FAD2B001B2AB7 /* BLYPlayerNavItemTitleView.xib in Resources */,
+				3F7380F4192E015A004F5783 /* BLYDiscoveryViewController.xib in Resources */,
+				3FDCFC1717EB5F0F0048B872 /* Images.xcassets in Resources */,
+				3F6F87241894385300A964A3 /* README.md in Resources */,
+				3FABF7661800542800810986 /* BLYFullScreenPlayerViewController.xib in Resources */,
+				3FCDCD4217F9C6B500A5535B /* InfoPlist.strings in Resources */,
+				3FCDCD6517FB794400A5535B /* BLYSearchSongResultsViewController.xib in Resources */,
+				3FA9542B2020D246003DC3F4 /* BLYMediaCenterThumb.xib in Resources */,
+				3FE0710A203C8D1C00E24476 /* brown_store.sqlite-shm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCFC1A17EB5F0F0048B872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCFC2817EB5F0F0048B872 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F85D206D9277A3453C4E0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brown/Pods-Brown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		331317DE6766A10A6620D1CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F3EDF9F1F63DAF8001A16FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 02d671d301e5a4144555b6c21caeb066cf0825fb 6865a25aef819e352307f197560492287f489f5c6b57027aff446bb321df4dc1";
+		};
+		4C4E441D40967A4BBB42F66A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brown/Pods-Brown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDCFBFD17EB5F0F0048B872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDCD3F17F9C6B500A5535B /* BLYSongStore.m in Sources */,
+				3FDCFC3B17EB639D0048B872 /* BLYExternalTopSongStore.m in Sources */,
+				3FDCFC5817ECA1A00048B872 /* BLYPlaylist.m in Sources */,
+				3F6F44B21916A0AD0098A419 /* BLYArtist.m in Sources */,
+				3F0738591933E069000DAA4D /* BLYCurrentSongVideoChoiceViewController.m in Sources */,
+				3F4BCD35184B55C90060CED9 /* NSString+Sizing.m in Sources */,
+				3F212E001DBB6BB900A9E468 /* BLYAlbumNavItemTitleView.m in Sources */,
+				3F70785617ECE47C00670AA6 /* BLYPlayerViewController.m in Sources */,
+				3FCDCD3B17F9C6B500A5535B /* BLYExternalTopSong.m in Sources */,
+				3F0738601934C59E000DAA4D /* BLYVideo.m in Sources */,
+				3F3585C3192F4E76001B2AB7 /* BLYPlayerContainerViewController.m in Sources */,
+				3FCDCD6417FB794400A5535B /* BLYSearchSongResultsViewController.m in Sources */,
+				3F7380F3192E015A004F5783 /* BLYDiscoveryViewController.m in Sources */,
+				3F3585CC192FAC33001B2AB7 /* BLYPlayerNavItemTitleView.m in Sources */,
+				3F212DF61DBA634200A9E468 /* BLYSong+Caching.m in Sources */,
+				3F212E0F1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataProperties.m in Sources */,
+				3F212DF91DBA6BB500A9E468 /* BLYSongCachingStore.m in Sources */,
+				3FCDCD6B17FC308E00A5535B /* BLYAlbumCell.m in Sources */,
+				3FA954382026107F003DC3F4 /* BLYTrendingSearchStore.m in Sources */,
+				3FC8D637193B5ECD009E15C9 /* BLYAlbumThumbnail.m in Sources */,
+				3FE0E5B4181BC66E0003FAB0 /* BLYPersonalTopSong.m in Sources */,
+				3F4BCD38184CE21D0060CED9 /* NSString+Matching.m in Sources */,
+				3FCDCD8D17FEFC9B00A5535B /* BLYBaseViewController.m in Sources */,
+				3FE0E5B8181BF4490003FAB0 /* BLYPersonalTopSongViewController.m in Sources */,
+				3FCDCD2017F9C1D300A5535B /* BLYHTTPConnection.m in Sources */,
+				3F4BCD3B184E1DBB0060CED9 /* BLYYoutubeExtractor.m in Sources */,
+				3FCDCD3E17F9C6B500A5535B /* BLYExternalTopSongCountry.m in Sources */,
+				3FA80BAD1824333400466482 /* BLYBaseTabBarController.m in Sources */,
+				3FA9542E2020D352003DC3F4 /* BLYMediaCenterThumb.m in Sources */,
+				3FDCFC1117EB5F0F0048B872 /* main.m in Sources */,
+				3FE0E5B1181B2C650003FAB0 /* BLYPersonalTopSongStore.m in Sources */,
+				3FAF8FD91930FFEB004ABBF6 /* BLYDiscoveryRelatedVideosRefreshHeaderView.m in Sources */,
+				3FE0E5BC181BFDE80003FAB0 /* BLYTopSongViewController.m in Sources */,
+				3F212DE11DA6E6D500A9E468 /* BLYAlbumHeaderInfoView.m in Sources */,
+				3FAF8FE11933CC3C004ABBF6 /* BLYPlayerContainerChildVideoListViewController.m in Sources */,
+				3FE07111203D8E7100E24476 /* BLYCurrentSongVideoChoiceFooterView.m in Sources */,
+				3F07388619365260000DAA4D /* BLYPlayedPlaylistSong.m in Sources */,
+				3FCDCCB917F47E1200A5535B /* BLYPlaylistViewController.m in Sources */,
+				3F978E8C1815614600AE2735 /* BLYErrorStore.m in Sources */,
+				3F9D592A193A69F000F38355 /* BLYSong.m in Sources */,
+				3FABF77B1801F71600810986 /* NSMutableArray+Shuffling.m in Sources */,
+				3FCDCD2317F9C1F000A5535B /* BLYStore.m in Sources */,
+				3F212E0E1DBBBC2A00A9E468 /* BLYCachedAlbum+CoreDataClass.m in Sources */,
+				3F212E0D1DBBBC2A00A9E468 /* BLYCachedSong+CoreDataProperties.m in Sources */,
+				3FDCFC3F17EB90AD0048B872 /* BLYExternalTopSongViewController.m in Sources */,
+				3F6B255420091DE200EC5788 /* UIAlertController+Orientation.m in Sources */,
+				3F07387D193637B4000DAA4D /* BLYPlayedPlaylistSongStore.m in Sources */,
+				3FDCFC4417EB93D50048B872 /* BLYPlayedSongViewController.m in Sources */,
+				3F0738691935F422000DAA4D /* BLYPlayedAlbum.m in Sources */,
+				3FE4FE201DC8EBB100ECCCCB /* BLYAppSettingsSettingCell.m in Sources */,
+				3F00F7C51DC906CE006562C6 /* BLYAppSettingsStore.m in Sources */,
+				3FCA5F8D1DA59DD700920FE9 /* BLYAppDelegate.m in Sources */,
+				3F212DEC1DA95ED900A9E468 /* BLYPlayedAlbumCell.m in Sources */,
+				3F07386C1935F47F000DAA4D /* BLYPlayedAlbumStore.m in Sources */,
+				3FCDCD5D17FB3B8800A5535B /* BLYPlayedSongStore.m in Sources */,
+				3F073872193614EA000DAA4D /* BLYAlbumListViewController.m in Sources */,
+				3FA954342026100C003DC3F4 /* BLYTrendingSearch+CoreDataClass.m in Sources */,
+				3F4BCD1C1846E8D00060CED9 /* BLYSearchSongResult.m in Sources */,
+				3F4BCD121846706A0060CED9 /* BLYSearchSongAutocompleteResult.m in Sources */,
+				3F70785D17ECFEEA00670AA6 /* BLYSearchSongAutocompleteResults.m in Sources */,
+				3FAF8FDC19339FA2004ABBF6 /* BLYDiscoveryRelatedVideosLoadedSongBottomView.m in Sources */,
+				3FA0F9A2182E7D980070A047 /* BLYArtistSong.m in Sources */,
+				3F212E121DBBBD3E00A9E468 /* BLYCachedSongStore.m in Sources */,
+				3F212DF01DA98A4B00A9E468 /* ExtendedNavBarView.m in Sources */,
+				3F4BCD0C184380270060CED9 /* BLYAlbum+Thumbnail.m in Sources */,
+				3FCDCD5A17FB1C1100A5535B /* BLYNetworkStore.m in Sources */,
+				3F212E0C1DBBBC2A00A9E468 /* BLYCachedSong+CoreDataClass.m in Sources */,
+				3FCDCD1F17F9C1D300A5535B /* BLYAlbumStore.m in Sources */,
+				3FCDCCB217F1D51100A5535B /* BLYPlayerPlaylistViewController.m in Sources */,
+				3FCDCCAE17F08C1100A5535B /* BLYTimeManager.m in Sources */,
+				3F9F0B98182BE5DA00C50980 /* BLYVideoURL.m in Sources */,
+				3FCDCD7817FDC5C300A5535B /* BLYSearchSongsStore.m in Sources */,
+				3F9F0B95182BE17200C50980 /* BLYVideoStore.m in Sources */,
+				3F32F3D7180BF34700052CB3 /* NSString+Escaping.m in Sources */,
+				3F4BCD18184674F50060CED9 /* BLYSearchSongAutocomplete.m in Sources */,
+				3F108C661DC6887800FD141C /* BLYAppSettingsViewController.m in Sources */,
+				3FCDCD6017FB3DCE00A5535B /* BLYPlayedSong.m in Sources */,
+				3FCDCD6817FB805700A5535B /* BLYSearchSongResultsStore.m in Sources */,
+				3FCDCD5717FB1BFC00A5535B /* Reachability.m in Sources */,
+				3F07386F1935F62B000DAA4D /* BLYAlbum.m in Sources */,
+				3F86AC62191BBF1C0056C156 /* BLYVideoComment.m in Sources */,
+				3FCDCD7117FCC6F800A5535B /* BLYAlbumViewController.m in Sources */,
+				3FCDCD9317FF106000A5535B /* BLYBaseNavigationController.m in Sources */,
+				3F9DF56520330F590039604F /* ActivityViewController.swift in Sources */,
+				3FA2B64E187B50FA002B1B30 /* BLYFileManager.m in Sources */,
+				3FDCFC5017EC4E130048B872 /* BLYPlaylistSongCell.m in Sources */,
+				3F3585C9192F8C0C001B2AB7 /* BLYPlayerContainerChildViewController.m in Sources */,
+				3FA2B654187F60ED002B1B30 /* NSString+Levenshtein.m in Sources */,
+				3FABF7651800542800810986 /* BLYFullScreenPlayerViewController.m in Sources */,
+				3FCDCD4617F9C7FE00A5535B /* BLYSearchSongViewController.m in Sources */,
+				3F9DF570203335A60039604F /* BLYNavSearchBarContainerView.m in Sources */,
+				3F817AFC2033025400A4558B /* 1.0.0.xcdatamodeld in Sources */,
+				3F86AC50191A948C0056C156 /* BLYYoutubeUser.m in Sources */,
+				3F7380F9192E2EC5004F5783 /* BLYVideoCell.m in Sources */,
+				3F9F0B92182BE12C00C50980 /* BLYVideoSong.m in Sources */,
+				3F07387519363460000DAA4D /* BLYPlayedSongOnLoadHeaderView.m in Sources */,
+				3FA954352026100C003DC3F4 /* BLYTrendingSearch+CoreDataProperties.m in Sources */,
+				3F9F0B89182BE12C00C50980 /* BLYVideoURLType.m in Sources */,
+				3F70785A17ECFA3E00670AA6 /* BLYSearchSongAutocompleteResultsStore.m in Sources */,
+				3F6F44B81917EC150098A419 /* BLYSearchSong.m in Sources */,
+				3F212DE71DA94F6E00A9E468 /* BLYAlbumsListHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCFC1817EB5F0F0048B872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDCFC2217EB5F0F0048B872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDCFC0017EB5F0F0048B872 /* Brown */;
+			targetProxy = 3FDCFC2117EB5F0F0048B872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F86AC67191D12250056C156 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F86AC66191D12250056C156 /* fr */,
+				3F86AC68191D12870056C156 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3F86AC6D191D21E30056C156 /* BLYPlayerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F86AC6E191D21E30056C156 /* fr */,
+			);
+			name = BLYPlayerViewController.xib;
+			sourceTree = "<group>";
+		};
+		3FCDCD3817F9C6B500A5535B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCDCD3917F9C6B500A5535B /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FDCFC0D17EB5F0F0048B872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDCFC4617EB95DC0048B872 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FDCFC2617EB5F0F0048B872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDCFC4717EB95DC0048B872 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDCFC2B17EB5F0F0048B872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "E14A9D2C-6D6D-44F8-BDEA-72B2E7E6DB69";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+			};
+			name = Debug;
+		};
+		3FDCFC2C17EB5F0F0048B872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE = "E14A9D2C-6D6D-44F8-BDEA-72B2E7E6DB69";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDCFC2E17EB5F0F0048B872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02F55F3B09A05EE2A5CEB4A /* Pods-Brown.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W98S9CGY9;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Brown/Brown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jeremy/Documents/Brown/Brown,
+					/Users/jeremy/Documents/Brown,
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brown.${PRODUCT_NAME:rfc1034identifier:lower}";
+				PRODUCT_NAME = Brown;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "-Wpartial-availability";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FDCFC2F17EB5F0F0048B872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522400D3E12F508DA2F927E8 /* Pods-Brown.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W98S9CGY9;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Brown/Brown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jeremy/Documents/Brown/Brown,
+					/Users/jeremy/Documents/Brown,
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brown.${PRODUCT_NAME:rfc1034identifier:lower}";
+				PRODUCT_NAME = Brown;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "-Wpartial-availability";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3FDCFC3117EB5F0F0048B872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brown.app/Brown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BrownTests/BrownTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brown.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = BrownTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3FDCFC3217EB5F0F0048B872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brown.app/Brown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Prefix.pch";
+				INFOPLIST_FILE = "BrownTests/BrownTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brown.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = BrownTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDCFBFC17EB5F0F0048B872 /* Build configuration list for PBXProject "Brown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDCFC2B17EB5F0F0048B872 /* Debug */,
+				3FDCFC2C17EB5F0F0048B872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDCFC2D17EB5F0F0048B872 /* Build configuration list for PBXNativeTarget "Brown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDCFC2E17EB5F0F0048B872 /* Debug */,
+				3FDCFC2F17EB5F0F0048B872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDCFC3017EB5F0F0048B872 /* Build configuration list for PBXNativeTarget "BrownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDCFC3117EB5F0F0048B872 /* Debug */,
+				3FDCFC3217EB5F0F0048B872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F817AFA2033025400A4558B /* 1.0.0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F817AFB2033025400A4558B /* 1.0.0.xcdatamodel */,
+			);
+			currentVersion = 3F817AFB2033025400A4558B /* 1.0.0.xcdatamodel */;
+			path = 1.0.0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FDCFBF917EB5F0F0048B872 /* Project object */;
+}

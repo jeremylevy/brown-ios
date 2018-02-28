@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BLYBaseTabBarController handleRotationChanged:]:BLYBaseTabBarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController loadPlayerWithSong:]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_songLoadedInBgPlayer.sid">
+            </PersistentString>
+            <PersistentString
+               value = "_songLoadedInBgPlayer.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController heartbeat]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.rewindCurrentSongDueToBadNetworkAttempts">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYBaseViewController navigationBarLightBorder]:BLYBaseViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController loadSong:at:askedByUser:]:BLYPlayerViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYAlbum(Thumbnail) smallThumbnailAsImg]:BLYAlbum+Thumbnail.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYCurrentSongVideoChoiceViewController collectionView:viewForSupplementaryElementOfKind:atIndexPath:]:BLYCurrentSongVideoChoiceViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController pause:]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_player.currentItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__50-[BLYSongStore loadThumbnail:withCompletionBlock:]_block_invoke_2:BLYSongStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[httpResponse statusCode]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYSearchSongViewController handleKeyboardAppear:]:BLYSearchSongViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYSearchSongViewController initWithNibName:bundle:]:BLYSearchSongViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.layoutMargins">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController loadPlayingInfoAtSongLoad:]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentSong.duration">
+            </PersistentString>
+            <PersistentString
+               value = "[self.currentSong.duration doubleValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController observeValueForKeyPath:ofObject:change:context:]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.periodicTimeObserverForPlayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYVideoStore urlForVideo:withQuality:andBound:]:BLYVideoStore.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYBaseTabBarController viewWillLayoutSubviews]:BLYBaseTabBarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "controller.tabBarController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController play]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.player.error">
+            </PersistentString>
+            <PersistentString
+               value = "self.playerItem.error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__97-[BLYVideoStore fetchRelatedVideosForVideo:ofSong:andCountry:withCompletion:andCompletionForImg:]_block_invoke:BLYVideoStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "returnedResults[@&quot;pageInfo&quot;][@&quot;totalResults&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "returnedResults[@&quot;items&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYAppDelegate application:supportedInterfaceOrientationsForWindow:]:BLYAppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerContainerChildVideoListViewController handlePlayerHasLoadedASongNotification:]:BLYPlayerContainerChildVideoListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__47-[BLYPlayerViewController handleCompleteBuffer]_block_invoke_2:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_currentVideoQuality">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController loadAudioSession]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentVideoURLExpiresAt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BLYPlayerViewController loadBackgroundPlayerWithSong:]:BLYPlayerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "video.path">
+            </PersistentString>
+            <PersistentString
+               value = "[song.videos count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

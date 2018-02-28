@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BE8D947B-8AEF-4DA2-AA7D-50E40DF9DB89</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bower</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E1B956C6CF6C0FA1232305C585B0A898575ECB84</key>
+		<string>github.com:jeremylevy/Bower.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bower.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E1B956C6CF6C0FA1232305C585B0A898575ECB84</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jeremylevy/Bower.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E1B956C6CF6C0FA1232305C585B0A898575ECB84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1B956C6CF6C0FA1232305C585B0A898575ECB84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Blynde</string>
+		</dict>
+	</array>
+</dict>
+</plist>

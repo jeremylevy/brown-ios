@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  Bower
+
+  Created by Jeremy Levy on 09/05/2014.
+  Copyright (c) 2014 Jeremy Levy. All rights reserved.
+*/
+
+"external_top_songs_navigation_item_title" = "Top of the charts";
+"external_top_songs_tab_bar_item_title" = "Popular";
+"external_top_songs_youtube_country_name" = "Youtube";
+"search_song_navigation_item_title" = "Search";
+"search_song_tab_bar_item_title" = "Search";
+"search_song_search_bar_placeholder" = "Search for an artist, a track, a video";
+"album_not_found_error" = "This album was not found. Please try again.";
+"album_nb_of_tracks" = "%d tracks";
+"album_release_date" = "Released on %@";
+"album_listen_button" = "Listen";
+"album_download_label" = "Download";
+"my_top_navigation_item_title" = "Your top (at the moment)";
+"history_navigation_item_title" = "History";
+"history_tab_bar_item_title" = "History";
+"playlist_navigation_item_title" = "Playlist";
+"player_tab_bar_item_title" = "Now playing";
+"player_navigation_item_title" = "Now playing";
+"player_bad_network_playlist_error_title" = "Network is broken";
+"player_bad_network_playlist_error_content" = "Until it comes to his senses, we have allowed ourselves to charge you those few titles that you seem to enjoy.";
+"player_album_is_a_video" = "It's a video.";
+"player_album_is_a_single" = "It's a single";
+"player_track_not_found" = "Track not found.";
+"pull_to_refresh" = "Pull to refresh.";
+"release_to_refresh" = "Release to refresh.";
+"search_song_history_tracks_type" = "Last played: Track";
+"search_song_history_albums_type" = "Last played: Album";
+"search_song_history_videos_type" = "Last played: Video";
+"player_repeat_explain_label" = "Song will be repeated.";
+"search_results_segment_0_type" = "Tracks";
+"search_results_segment_1_type" = "Albums";
+"search_results_segment_2_type" = "Videos";
+"error_retry_button" = "Retry";
+"discovery_navigation_item_title" = "Suggestions";
+"view_controller_main_loading_text" = "Loading...";
+"view_controller_main_no_results_text" = "No matches found";
+"full_screen_loading_text" = "Loading...";
+"discovery_vc_related_videos_refresh_button_text" = "View suggestions for this video";
+"current_song_video_choice_navigation_item_title" = "Other videos";
+"history_segment_0_type" = "Tracks";
+"history_segment_1_type" = "Albums";
+"history_listened_songs_segmented_control_title" = "Listened";
+"history_cached_songs_segmented_control_title" = "Downloaded";
+"played_song_resume_playlist_header_view_button" = "Resume";
+"discovery_vc_no_results_text" = "No suggestions found.";
+"app_settings_navigation_item_title" = "Settings";
+"app_settings_with_wifi_section_title" = "On wifi";
+"app_settings_without_wifi_section_title" = "On cellular network";
+"app_settings_all_the_time_section_title" = "All the time";
+"app_settings_auto_download_songs_setting" = "Automatic download of the most listened songs";
+"app_settings_forbid_uncached_songs_listening_setting" = "Forbid listening of non downloaded songs";
+"app_settings_shake_to_randomize_setting" = "Shake to play displayed playlist in random order";
+"app_settings_footer_cv" = "By Jérémy Levy (jje.levy@gmail.com).";
+"playlist_delete_song_abbr" = "Delete";
+"playlist_download_song_abbr" = "Download";
+"playlist_stop_download_song_abbr" = "Stop";
+"playlist_stop_download_song" = "Stop";
+"playlist_download_song" = "Download";
+"playlist_delete_song" = "Delete";
+"last_searches" = "Last searches";
+"trending_searches" = "Trending searches ⤴";
+"error" = "Error";
+"repeated" = "Repeated";
+"OK" = "OK";
+"unknown_error" = "An unknown error occurred";
+"Loading..." = "Loading...";
+"current_song_video_choice_footer_text" = "To reload a song and all of its videos, keep your finger pressed on it for a moment.";

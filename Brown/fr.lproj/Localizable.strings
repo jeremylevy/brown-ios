@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  Bower
+
+  Created by Jeremy Levy on 09/05/2014.
+  Copyright (c) 2014 Jeremy Levy. All rights reserved.
+*/
+
+"external_top_songs_navigation_item_title" = "Les tops du moment";
+"search_song_navigation_item_title" = "Recherche";
+"search_song_tab_bar_item_title" = "Recherche";
+"search_song_search_bar_placeholder" = "Recherchez un artiste, un titre, une vidéo";
+"album_not_found_error" = "Cet album est introuvable. Veuillez réessayer.";
+"album_nb_of_tracks" = "%d morceaux";
+"album_release_date" = "Sortie le %@";
+"album_listen_button" = "Écouter";
+"album_download_label" = "Télécharger";
+"external_top_songs_tab_bar_item_title" = "Populaires";
+"external_top_songs_youtube_country_name" = "Youtube";
+"my_top_navigation_item_title" = "Votre top du moment";
+"history_navigation_item_title" = "Historique";
+"history_tab_bar_item_title" = "Historique";
+"playlist_navigation_item_title" = "Liste de lecture";
+"player_tab_bar_item_title" = "À l'écoute";
+"player_navigation_item_title" = "À l'écoute";
+"player_bad_network_playlist_error_title" = "Le réseau est dans les choux";
+"player_bad_network_playlist_error_content" = "En attendant qu'il retrouve ses esprits, nous nous sommes permis de vous charger ces quelques titres que vous semblez apprécier.";
+"player_album_is_a_video" = "C'est une vidéo.";
+"player_album_is_a_single" = "C'est un single";
+"player_track_not_found" = "Titre introuvable.";
+"pull_to_refresh" = "Tirez pour actualiser.";
+"release_to_refresh" = "Relâchez pour actualiser.";
+"search_song_history_tracks_type" = "Dernière écoute : Titre";
+"search_song_history_albums_type" = "Dernière écoute : Album";
+"search_song_history_videos_type" = "Dernière écoute : Vidéo";
+"player_repeat_explain_label" = "Ce titre sera répété.";
+"search_results_segment_0_type" = "Titres";
+"search_results_segment_1_type" = "Albums";
+"search_results_segment_2_type" = "Vidéos";
+"error_retry_button" = "Réessayer";
+"discovery_navigation_item_title" = "Suggestions";
+"view_controller_main_loading_text" = "Chargement en cours...";
+"view_controller_main_no_results_text" = "Aucun résultat trouvé";
+"full_screen_loading_text" = "Chargement...";
+"discovery_vc_related_videos_refresh_button_text" = "Voir les suggestions pour cette vidéo";
+"current_song_video_choice_navigation_item_title" = "Autres vidéos";
+"history_segment_0_type" = "Titres";
+"history_segment_1_type" = "Albums";
+"history_listened_songs_segmented_control_title" = "Ecoutés";
+"history_cached_songs_segmented_control_title" = "Téléchargés";
+"played_song_resume_playlist_header_view_button" = "Reprendre";
+"discovery_vc_no_results_text" = "Aucune suggestion pour cette vidéo.";
+"app_settings_navigation_item_title" = "Paramètres";
+"app_settings_with_wifi_section_title" = "En wifi";
+"app_settings_without_wifi_section_title" = "Hors-wifi";
+"app_settings_all_the_time_section_title" = "Tout le temps";
+"app_settings_auto_download_songs_setting" = "Télécharger automatiquement les titres les plus écoutés";
+"app_settings_forbid_uncached_songs_listening_setting" = "Interdire l'écoute des titres non téléchargés";
+"app_settings_shake_to_randomize_setting" = "Secouer pour lire la playlist affichée à l'écran en aléatoire";
+"app_settings_footer_cv" = "Par Jérémy Levy (jje.levy@gmail.com).";
+"playlist_delete_song_abbr" = "Supp.";
+"playlist_download_song_abbr" = "Téléch.";
+"playlist_stop_download_song_abbr" = "Stop";
+"playlist_stop_download_song" = "Stopper";
+"playlist_download_song" = "Télécharger";
+"playlist_delete_song" = "Supprimer";
+"last_searches" = "Dernières recherches";
+"trending_searches" = "Tendances actuelles ⤴";
+"error" = "Erreur";
+"repeated" = "Répété";
+"OK" = "OK";
+"unknown_error" = "Une erreur inconnue est survenue";
+"Loading..." = "Chargement...";
+"current_song_video_choice_footer_text" = "Pour recharger un titre et l'ensemble de ses vidéos, conservez votre doigt appuyé dessus un moment.";
