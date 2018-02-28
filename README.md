@@ -19,7 +19,7 @@
   <img src="5.png" width="160"/>
 </p>
 
-**Brown** is an iOS app to listen music on [YouTube](https://www.youtube.com/) more easier.
+**Brown** is an iOS app to listen music on [YouTube](https://www.youtube.com/) more easier than official application.
 
 It was built using the [YouTube API](https://developers.google.com/youtube/) and [XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit).
 
