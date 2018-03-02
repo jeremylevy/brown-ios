@@ -12,11 +12,11 @@
 <br>
 
 <p align="center">
-<img src="1.png#1" width="160"/>
-  <img src="2.png#2" width="160"/>
-  <img src="3.png#3" width="160"/>
-  <img src="4.png#4" width="160"/>
-  <img src="5.png#5" width="160"/>
+<img src="1.png#a" width="160"/>
+  <img src="2.png#b" width="160"/>
+  <img src="3.png#c" width="160"/>
+  <img src="4.png#d" width="160"/>
+  <img src="5.png#e" width="160"/>
 </p>
 
 **Brown** is an iOS app to listen music on [YouTube](https://www.youtube.com/) more easier than official application.
