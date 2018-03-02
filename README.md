@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="center">
+<p align="center" style="background-color: #fbfbfb;padding-top: 6px;">
 <img src="1.png#a" width="160"/>
   <img src="2.png#b" width="160"/>
   <img src="3.png#c" width="160"/>
