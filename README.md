@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A new way to listen music on YouTube</h4>
+<h4 align="center">A new way to listen music on YouTube.</h4>
 
 <br>
 
